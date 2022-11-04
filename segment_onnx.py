@@ -14,3 +14,4 @@ from PIL import Image, ImageDraw, ImageFont
 import glob
 
 
+#non max suppression 
