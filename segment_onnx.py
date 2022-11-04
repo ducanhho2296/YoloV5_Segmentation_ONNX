@@ -39,3 +39,4 @@ def nms(dets, scores, thresh):
     x2 = dets[:, 2]
     y2 = dets[:, 3]
 
+    areas = (x2 - x1 + 1e-9) * (y2 - y1 + 1e-9)
