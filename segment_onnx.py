@@ -34,3 +34,4 @@ def xyxy2xywh(x):
     return y
 
 def nms(dets, scores, thresh):
+    x1 = dets[:, 0]
