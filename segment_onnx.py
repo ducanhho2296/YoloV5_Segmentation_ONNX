@@ -37,3 +37,4 @@ def nms(dets, scores, thresh):
     x1 = dets[:, 0]
     y1 = dets[:, 1]
     x2 = dets[:, 2]
+    y2 = dets[:, 3]
