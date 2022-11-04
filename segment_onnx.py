@@ -33,3 +33,4 @@ def xyxy2xywh(x):
     y[:, 3] = x[:, 3] - x[:, 1]  # height
     return y
 
+def nms(dets, scores, thresh):
