@@ -65,3 +65,4 @@ def nms(dets, scores, thresh):
         order = order[inds + 1]
 
     return np.array(keep)
+
