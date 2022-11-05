@@ -50,3 +50,4 @@ def nms(dets, scores, thresh):
 
         xx1 = np.maximum(x1[i], x1[other_box_ids])
         yy1 = np.maximum(y1[i], y1[other_box_ids])
+        xx2 = np.minimum(x2[i], x2[other_box_ids])
