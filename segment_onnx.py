@@ -45,3 +45,4 @@ def nms(dets, scores, thresh):
     keep = []
     while order.size > 0:
         i = order[0]  # pick maxmum iou box
+        other_box_ids = order[1:]
