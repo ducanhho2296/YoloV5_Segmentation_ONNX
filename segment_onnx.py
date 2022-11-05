@@ -40,3 +40,4 @@ def nms(dets, scores, thresh):
     y2 = dets[:, 3]
 
     areas = (x2 - x1 + 1e-9) * (y2 - y1 + 1e-9)
+    order = scores.argsort()[::-1]  # get boxes with more ious first
