@@ -48,3 +48,4 @@ def nms(dets, scores, thresh):
         other_box_ids = order[1:]
         keep.append(i)
 
+        xx1 = np.maximum(x1[i], x1[other_box_ids])
