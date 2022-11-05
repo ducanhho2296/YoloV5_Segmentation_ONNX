@@ -43,3 +43,4 @@ def nms(dets, scores, thresh):
     order = scores.argsort()[::-1]  # get boxes with more ious first
 
     keep = []
+    while order.size > 0:
