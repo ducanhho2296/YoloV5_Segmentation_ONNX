@@ -62,3 +62,4 @@ def nms(dets, scores, thresh):
         ovr = inter / (areas[i] + areas[other_box_ids] - inter)
 
         inds = np.where(ovr <= thresh)[0]
+        order = order[inds + 1]
