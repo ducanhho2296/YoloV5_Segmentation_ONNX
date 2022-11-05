@@ -57,3 +57,4 @@ def nms(dets, scores, thresh):
 
         w = np.maximum(0.0, xx2 - xx1 + 1e-9)  # maximum width
         h = np.maximum(0.0, yy2 - yy1 + 1e-9)  # maxiumum height
+        inter = w * h
