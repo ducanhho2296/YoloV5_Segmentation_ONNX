@@ -82,3 +82,4 @@ def non_max_suppression(prediction, conf_thres=0.5, iou_thres=0.45, max_det=1000
     mi = 5 + nc
 
     for xi, x in enumerate(prediction):  # image index, image inference
+        # Apply constraints
