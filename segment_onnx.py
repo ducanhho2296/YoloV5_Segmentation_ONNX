@@ -89,3 +89,4 @@ def non_max_suppression(prediction, conf_thres=0.5, iou_thres=0.45, max_det=1000
         # If none remain process next image
         if not x.shape[0]:
             continue
+
