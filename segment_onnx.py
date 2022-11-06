@@ -69,3 +69,4 @@ def nms(dets, scores, thresh):
 
 
 def non_max_suppression(prediction, conf_thres=0.5, iou_thres=0.45, max_det=1000):
+    output = [np.zeros((0, 6))] * prediction.shape[0]
