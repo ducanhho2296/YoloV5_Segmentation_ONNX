@@ -73,3 +73,4 @@ def non_max_suppression(prediction, conf_thres=0.5, iou_thres=0.45, max_det=1000
     if prediction.size == 0:
         return output
 
+    xc = prediction[..., 4] > conf_thres  # candidate
