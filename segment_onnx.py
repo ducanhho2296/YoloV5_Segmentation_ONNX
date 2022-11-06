@@ -75,3 +75,4 @@ def non_max_suppression(prediction, conf_thres=0.5, iou_thres=0.45, max_det=1000
 
     xc = prediction[..., 4] > conf_thres  # candidate
     # Settings
+    min_wh, max_wh = 2, 7680  # (pixels) minimum and maximum box width and height
