@@ -97,3 +97,4 @@ def non_max_suppression(prediction, conf_thres=0.5, iou_thres=0.45, max_det=1000
         mask = x[:, mi:]
         # Detections matrix nx6 (xyxy, conf, cls)
         conf = np.amax(x[:, 5:mi], axis=1, keepdims=True)
+        x = np.concatenate((box, conf, j.astype(float), mask), axis=1)[conf.flatten() > conf_thres]
