@@ -107,3 +107,4 @@ def non_max_suppression(prediction, conf_thres=0.5, iou_thres=0.45, max_det=1000
         elif n > max_nms:  # excess boxes
             x = x[x[:, 4].argsort(descending=True)[:max_nms]]
         # Batched NMS
+        c = x[:, 5:6] * max_wh  # classes
