@@ -134,3 +134,4 @@ def crop_mask(masks, boxes):
     c = np.arange(h, device=masks.device, dtype=x1.dtype)[None, :, None]  # cols shape(h,1,1)
 
     return masks * ((r >= x1) * (r < x2) * (c >= y1) * (c < y2))
+
