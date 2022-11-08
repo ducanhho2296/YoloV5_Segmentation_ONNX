@@ -120,3 +120,4 @@ def non_max_suppression(prediction, conf_thres=0.5, iou_thres=0.45, max_det=1000
 #Function to calculate masks
 def crop_mask(masks, boxes):
     """
+    "Crop" predicted masks by zeroing out everything not in the predicted bbox.
