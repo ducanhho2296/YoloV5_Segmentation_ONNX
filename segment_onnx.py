@@ -125,3 +125,4 @@ def crop_mask(masks, boxes):
 
     Args:
         - masks should be a size [h, w, n] tensor of masks
+        - boxes should be a size [n, 4] tensor of bbox coords in relative point form
