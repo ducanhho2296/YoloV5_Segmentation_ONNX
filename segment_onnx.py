@@ -157,3 +157,4 @@ def process_mask(protos, masks_in, bboxes, shape, upsample=False):
     downsampled_bboxes[:, 3] *= mh / ih
     downsampled_bboxes[:, 1] *= mh / ih
 
+    masks = crop_mask(masks, downsampled_bboxes)  # CHW
