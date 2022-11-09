@@ -154,3 +154,4 @@ def process_mask(protos, masks_in, bboxes, shape, upsample=False):
     downsampled_bboxes = bboxes.clone()
     downsampled_bboxes[:, 0] *= mw / iw
     downsampled_bboxes[:, 2] *= mw / iw
+    downsampled_bboxes[:, 3] *= mh / ih
