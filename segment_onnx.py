@@ -144,3 +144,4 @@ def process_mask(protos, masks_in, bboxes, shape, upsample=False):
     bboxes: [n, 4], n is number of masks after nms
     shape:input_image_size, (h, w)
 
+    return: h, w, n
