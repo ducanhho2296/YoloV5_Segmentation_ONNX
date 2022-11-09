@@ -140,3 +140,4 @@ def process_mask(protos, masks_in, bboxes, shape, upsample=False):
     """
     Crop before upsample.
     proto_out: [mask_dim, mask_h, mask_w]
+    out_masks: [n, mask_dim], n is number of masks after nms
