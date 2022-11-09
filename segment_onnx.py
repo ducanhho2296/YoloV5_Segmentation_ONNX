@@ -145,3 +145,4 @@ def process_mask(protos, masks_in, bboxes, shape, upsample=False):
     shape:input_image_size, (h, w)
 
     return: h, w, n
+    """
