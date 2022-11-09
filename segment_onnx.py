@@ -152,3 +152,4 @@ def process_mask(protos, masks_in, bboxes, shape, upsample=False):
     masks = (masks_in @ protos.float().view(c, -1)).sigmoid().view(-1, mh, mw)  # CHW
 
     downsampled_bboxes = bboxes.clone()
+    downsampled_bboxes[:, 0] *= mw / iw
