@@ -139,3 +139,4 @@ def crop_mask(masks, boxes):
 def process_mask(protos, masks_in, bboxes, shape, upsample=False):
     """
     Crop before upsample.
+    proto_out: [mask_dim, mask_h, mask_w]
