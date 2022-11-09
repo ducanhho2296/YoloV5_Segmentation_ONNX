@@ -148,3 +148,4 @@ def process_mask(protos, masks_in, bboxes, shape, upsample=False):
     """
 
     c, mh, mw = protos.shape  # CHW
+    ih, iw = shape
