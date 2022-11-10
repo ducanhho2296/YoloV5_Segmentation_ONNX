@@ -173,3 +173,4 @@ def scale_boxes(img1_shape, boxes, img0_shape, ratio_pad=None):
         pad = ratio_pad[1]
 
     boxes[:, [0, 2]] -= pad[0]  # x padding
+    boxes[:, [1, 3]] -= pad[1]  # y padding
