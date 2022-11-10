@@ -171,4 +171,5 @@ def scale_boxes(img1_shape, boxes, img0_shape, ratio_pad=None):
     else:
         gain = ratio_pad[0][0]
         pad = ratio_pad[1]
+
     boxes[:, [0, 2]] -= pad[0]  # x padding
