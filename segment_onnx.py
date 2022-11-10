@@ -176,3 +176,4 @@ def scale_boxes(img1_shape, boxes, img0_shape, ratio_pad=None):
     boxes[:, [1, 3]] -= pad[1]  # y padding
     boxes[:, :4] /= gain
     clip_boxes(boxes, img0_shape)
+    return boxes
