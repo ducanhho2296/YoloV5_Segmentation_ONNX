@@ -182,3 +182,4 @@ def clip_boxes(boxes, shape):
     # Clip boxes (xyxy) to image shape (height, width)
     # if isinstance(boxes, torch.Tensor):  # faster individually
     #     boxes[:, 0].clamp_(0, shape[1])  # x1
+    #     boxes[:, 1].clamp_(0, shape[0])  # y1
