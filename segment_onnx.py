@@ -178,3 +178,4 @@ def scale_boxes(img1_shape, boxes, img0_shape, ratio_pad=None):
     clip_boxes(boxes, img0_shape)
     return boxes
 
+def clip_boxes(boxes, shape):
