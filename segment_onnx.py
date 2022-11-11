@@ -208,4 +208,5 @@ def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
         pad = ratio_pad[1]
     top, left = int(pad[1]), int(pad[0])  # y, x
     bottom, right = int(im1_shape[0] - pad[1]), int(im1_shape[1] - pad[0])
+
     if len(masks.shape) < 2:
