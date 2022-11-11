@@ -216,3 +216,4 @@ def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
     # masks = F.interpolate(masks[None], im0_shape[:2], mode='bilinear', align_corners=False)[0]
     # masks = masks.permute(1, 2, 0).contiguous()
     masks = cv2.resize(masks, (im0_shape[1], im0_shape[0]))
+
