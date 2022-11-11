@@ -219,3 +219,4 @@ def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
 
     if len(masks.shape) == 2:
         masks = masks[:, :, None]
+    return masks
