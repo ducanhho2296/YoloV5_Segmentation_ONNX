@@ -189,3 +189,4 @@ def clip_boxes(boxes, shape):
     boxes[:, [0, 2]] = boxes[:, [0, 2]].clip(0, shape[1])  # x1, x2
     boxes[:, [1, 3]] = boxes[:, [1, 3]].clip(0, shape[0])  # y1, y2
 
+def is_ascii(s=''):
