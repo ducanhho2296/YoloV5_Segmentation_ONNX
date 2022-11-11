@@ -211,3 +211,4 @@ def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
 
     if len(masks.shape) < 2:
         raise ValueError(f'"len of masks shape" should be 2 or 3, but got {len(masks.shape)}')
+    masks = masks[top:bottom, left:right]
