@@ -202,3 +202,4 @@ def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
     """
     # Rescale coordinates (xyxy) from im1_shape to im0_shape
     if ratio_pad is None:  # calculate from im0_shape
+        gain = min(im1_shape[0] / im0_shape[0], im1_shape[1] / im0_shape[1])  # gain  = old / new
