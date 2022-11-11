@@ -200,3 +200,4 @@ def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
     img0_shape: origin pic shape, [h, w, 3]
     masks: [h, w, num]
     """
+    # Rescale coordinates (xyxy) from im1_shape to im0_shape
