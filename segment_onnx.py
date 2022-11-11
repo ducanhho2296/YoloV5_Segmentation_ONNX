@@ -194,3 +194,4 @@ def is_ascii(s=''):
     s = str(s)  # convert list, tuple, None, etc. to str
     return len(s.encode().decode('ascii', 'ignore')) == len(s)
 
+def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
