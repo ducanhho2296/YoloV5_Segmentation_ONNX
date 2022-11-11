@@ -201,3 +201,4 @@ def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
     masks: [h, w, num]
     """
     # Rescale coordinates (xyxy) from im1_shape to im0_shape
+    if ratio_pad is None:  # calculate from im0_shape
