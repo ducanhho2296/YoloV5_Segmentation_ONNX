@@ -222,4 +222,5 @@ def scale_image(im1_shape, masks, im0_shape, ratio_pad=None):
     return masks
 
 def letterbox(im, new_shape=(640, 640), color=(114, 114, 114), auto=True, scaleFill=False, scaleup=True, stride=32):
+    # Resize and pad image while meeting stride-multiple constraints
     shape = im.shape[:2]  # current shape [height, width]
