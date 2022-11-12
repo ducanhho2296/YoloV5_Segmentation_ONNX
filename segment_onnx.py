@@ -244,3 +244,4 @@ def letterbox(im, new_shape=(640, 640), color=(114, 114, 114), auto=True, scaleF
         ratio = new_shape[1] / shape[1], new_shape[0] / shape[0]  # width, height ratios
 
     dw /= 2  # divide padding into 2 sides
+    dh /= 2
