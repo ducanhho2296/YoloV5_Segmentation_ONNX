@@ -246,3 +246,4 @@ def letterbox(im, new_shape=(640, 640), color=(114, 114, 114), auto=True, scaleF
     dw /= 2  # divide padding into 2 sides
     dh /= 2
 
+    if shape[::-1] != new_unpad:  # resize
