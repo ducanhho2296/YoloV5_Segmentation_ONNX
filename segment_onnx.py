@@ -227,5 +227,6 @@ def letterbox(im, new_shape=(640, 640), color=(114, 114, 114), auto=True, scaleF
     if isinstance(new_shape, int):
         new_shape = (new_shape, new_shape)
 
+    # Scale ratio (new / old)
 
 
