@@ -293,3 +293,4 @@ class LoadImages:
         self.stride = stride
         self.files = images 
         self.nf = ni   # number of files
+        self.mode = 'image'
