@@ -287,3 +287,4 @@ class LoadImages:
         IMG_FORMATS = 'bmp', 'dng', 'jpeg', 'jpg', 'mpo', 'png', 'tif', 'tiff', 'webp', 'pfm'  # include image suffixes
         images = [x for x in files if x.split('.')[-1].lower() in IMG_FORMATS]
         # videos = [x for x in files if x.split('.')[-1].lower() in VID_FORMATS]
+        ni = len(images)
