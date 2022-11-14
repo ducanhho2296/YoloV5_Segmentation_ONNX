@@ -281,3 +281,4 @@ class LoadImages:
             elif os.path.isdir(p):
                 files.extend(sorted(glob.glob(os.path.join(p, '*.*'))))  # dir
             elif os.path.isfile(p):
+                files.append(p)  # files
