@@ -283,3 +283,4 @@ class LoadImages:
             elif os.path.isfile(p):
                 files.append(p)  # files
             else:
+                raise FileNotFoundError(f'{p} does not exist')
