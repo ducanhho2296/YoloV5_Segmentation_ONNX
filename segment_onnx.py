@@ -289,3 +289,4 @@ class LoadImages:
         # videos = [x for x in files if x.split('.')[-1].lower() in VID_FORMATS]
         ni = len(images)
 
+        self.stride = stride
