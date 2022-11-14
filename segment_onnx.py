@@ -291,3 +291,4 @@ class LoadImages:
 
         self.img_size = img_size
         self.stride = stride
+        self.files = images 
