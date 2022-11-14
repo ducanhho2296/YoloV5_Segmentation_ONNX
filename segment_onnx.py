@@ -274,3 +274,4 @@ class LoadImages:
     # YOLOv5 image/video dataloader, i.e. `python detect.py --source image.jpg/vid.mp4`
     def __init__(self, path, img_size=640, stride=32, auto=True, transforms=None, vid_stride=1):
         files = []
+        for p in sorted(path) if isinstance(path, (list, tuple)) else [path]:
