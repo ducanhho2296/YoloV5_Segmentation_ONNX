@@ -276,3 +276,4 @@ class LoadImages:
         files = []
         for p in sorted(path) if isinstance(path, (list, tuple)) else [path]:
             p = str(Path(p).resolve())
+            if '*' in p:
