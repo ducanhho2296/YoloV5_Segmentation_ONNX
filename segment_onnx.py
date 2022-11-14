@@ -277,3 +277,4 @@ class LoadImages:
         for p in sorted(path) if isinstance(path, (list, tuple)) else [path]:
             p = str(Path(p).resolve())
             if '*' in p:
+                files.extend(sorted(glob.glob(p, recursive=True)))  # glob
