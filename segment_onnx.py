@@ -299,3 +299,4 @@ class LoadImages:
         self.vid_stride = vid_stride  # video frame-rate stride
 
         assert self.nf > 0, f'No images or videos found in {p}. ' \
+                            f'Supported formats are:\nimages: {IMG_FORMATS}'
