@@ -278,3 +278,4 @@ class LoadImages:
             p = str(Path(p).resolve())
             if '*' in p:
                 files.extend(sorted(glob.glob(p, recursive=True)))  # glob
+            elif os.path.isdir(p):
