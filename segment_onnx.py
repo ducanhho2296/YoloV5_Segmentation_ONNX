@@ -284,3 +284,4 @@ class LoadImages:
                 files.append(p)  # files
             else:
                 raise FileNotFoundError(f'{p} does not exist')
+        IMG_FORMATS = 'bmp', 'dng', 'jpeg', 'jpg', 'mpo', 'png', 'tif', 'tiff', 'webp', 'pfm'  # include image suffixes
