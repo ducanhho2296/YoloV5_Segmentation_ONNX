@@ -296,3 +296,4 @@ class LoadImages:
         self.mode = 'image'
         self.auto = auto
         self.transforms = transforms  # optional
+        self.vid_stride = vid_stride  # video frame-rate stride
