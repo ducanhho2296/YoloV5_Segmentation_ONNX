@@ -295,3 +295,4 @@ class LoadImages:
         self.nf = ni   # number of files
         self.mode = 'image'
         self.auto = auto
+        self.transforms = transforms  # optional
