@@ -298,3 +298,4 @@ class LoadImages:
         self.transforms = transforms  # optional
         self.vid_stride = vid_stride  # video frame-rate stride
 
+        assert self.nf > 0, f'No images or videos found in {p}. ' \
