@@ -327,3 +327,4 @@ class LoadImages:
     def _cv2_rotate(self, im):
         # Rotate a cv2 video manually
         if self.orientation == 0:
+            return cv2.rotate(im, cv2.ROTATE_90_CLOCKWISE)
