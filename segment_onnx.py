@@ -325,3 +325,4 @@ class LoadImages:
         return path, im, im0
 
     def _cv2_rotate(self, im):
+        # Rotate a cv2 video manually
