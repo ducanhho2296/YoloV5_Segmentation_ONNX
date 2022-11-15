@@ -323,3 +323,4 @@ class LoadImages:
             im = np.ascontiguousarray(im)  # contiguous
 
         return path, im, im0
+
