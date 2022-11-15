@@ -316,3 +316,4 @@ class LoadImages:
         s = f'image {self.count}/{self.nf} {path}: '
 
         if self.transforms:
+            im = self.transforms(im0)  # transforms
