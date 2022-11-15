@@ -308,3 +308,4 @@ class LoadImages:
     def __next__(self):
         if self.count == self.nf:
             raise StopIteration
+        path = self.files[self.count]
