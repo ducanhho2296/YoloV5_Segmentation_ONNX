@@ -310,3 +310,4 @@ class LoadImages:
             raise StopIteration
         path = self.files[self.count]
 
+        self.count += 1
