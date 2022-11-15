@@ -302,3 +302,4 @@ class LoadImages:
                             f'Supported formats are:\nimages: {IMG_FORMATS}'
 
     def __iter__(self):
+        self.count = 0
