@@ -306,3 +306,4 @@ class LoadImages:
         return self
 
     def __next__(self):
+        if self.count == self.nf:
