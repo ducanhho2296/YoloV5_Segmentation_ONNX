@@ -311,3 +311,4 @@ class LoadImages:
         path = self.files[self.count]
 
         self.count += 1
+        im0 = cv2.imread(path)  # BGR
