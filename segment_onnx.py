@@ -334,3 +334,4 @@ class LoadImages:
             return cv2.rotate(im, cv2.ROTATE_180)
         return im
 
+    def __len__(self):
