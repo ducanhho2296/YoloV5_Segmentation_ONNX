@@ -359,3 +359,4 @@ colors = Colors() #call colors for coloring masks
 
 #Annotator
 class Annotator:
+    # YOLOv5 Annotator for train/val mosaics and jpgs and detect/hub inference annotations
