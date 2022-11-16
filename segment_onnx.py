@@ -339,3 +339,4 @@ class LoadImages:
 
 class Colors:
     # Ultralytics color palette https://ultralytics.com/
+    def __init__(self):
