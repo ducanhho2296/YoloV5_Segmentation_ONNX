@@ -335,3 +335,4 @@ class LoadImages:
         return im
 
     def __len__(self):
+        return self.nf  # number of files
