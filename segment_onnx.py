@@ -357,3 +357,4 @@ class Colors:
 colors = Colors() #call colors for coloring masks
 
 
+#Annotator
