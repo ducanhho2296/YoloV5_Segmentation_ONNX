@@ -360,3 +360,4 @@ colors = Colors() #call colors for coloring masks
 #Annotator
 class Annotator:
     # YOLOv5 Annotator for train/val mosaics and jpgs and detect/hub inference annotations
+    def __init__(self, im, line_width=None, font_size=None, font='Arial.ttf', pil=False, example='abc'):
