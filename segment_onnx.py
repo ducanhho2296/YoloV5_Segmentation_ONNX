@@ -365,3 +365,4 @@ class Annotator:
         non_ascii = not is_ascii(example)  # non-latin labels, i.e. asian, arabic, cyrillic
         self.pil = pil or non_ascii
         # if self.pil:  # use PIL
+        #     self.draw = ImageDraw.Draw(self.im)
