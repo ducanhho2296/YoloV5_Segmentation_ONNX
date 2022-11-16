@@ -347,3 +347,4 @@ class Colors:
         self.n = len(self.palette)
 
     def __call__(self, i, bgr=False):
+        return (c[2], c[1], c[0]) if bgr else c
