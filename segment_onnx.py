@@ -377,3 +377,4 @@ class Annotator:
         # if self.pil or not is_ascii(label):
         #     self.draw.rectangle(box, width=self.lw, outline=color)  # box
         #     if label:
+        #         w, h = self.font.getsize(label)  # text width, height
