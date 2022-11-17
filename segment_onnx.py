@@ -401,3 +401,4 @@ class Annotator:
                             self.lw / 3,
                             txt_color,
                             thickness=tf,
+                            lineType=cv2.LINE_AA)
