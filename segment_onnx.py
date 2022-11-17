@@ -381,3 +381,4 @@ class Annotator:
         #         outside = box[1] - h >= 0  # label fits outside box
         #         self.draw.rectangle(
         #             (box[0], box[1] - h if outside else box[1], box[0] + w + 1,
+        #              box[1] + 1 if outside else box[1] + h + 1),
