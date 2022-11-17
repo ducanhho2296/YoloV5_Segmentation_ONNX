@@ -384,3 +384,4 @@ class Annotator:
         #              box[1] + 1 if outside else box[1] + h + 1),
         #             fill=color,
         #         )
+        #         # self.draw.text((box[0], box[1]), label, fill=txt_color, font=self.font, anchor='ls')  # for PIL>8.0
