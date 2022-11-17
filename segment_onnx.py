@@ -376,3 +376,4 @@ class Annotator:
         # Add one xyxy box to image with label
         # if self.pil or not is_ascii(label):
         #     self.draw.rectangle(box, width=self.lw, outline=color)  # box
+        #     if label:
