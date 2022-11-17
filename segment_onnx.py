@@ -379,3 +379,4 @@ class Annotator:
         #     if label:
         #         w, h = self.font.getsize(label)  # text width, height
         #         outside = box[1] - h >= 0  # label fits outside box
+        #         self.draw.rectangle(
