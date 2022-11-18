@@ -405,3 +405,4 @@ class Annotator:
 
     
     
+    def masks(self, masks, colors, im_gpu=None, alpha=0.5):
