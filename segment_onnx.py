@@ -408,3 +408,4 @@ class Annotator:
     def masks(self, masks, colors, im_gpu=None, alpha=0.5):
         """Plot masks at once.
         Args:
+            masks (tensor): predicted masks on cuda, shape: [n, h, w]
