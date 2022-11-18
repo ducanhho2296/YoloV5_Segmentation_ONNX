@@ -412,3 +412,4 @@ class Annotator:
             colors (List[List[Int]]): colors for predicted masks, [[r, g, b] * n]
             im_gpu (tensor): img is in cuda, shape: [3, h, w], range: [0, 1]
             alpha (float): mask transparency: 0.0 fully transparent, 1.0 opaque
+        """
