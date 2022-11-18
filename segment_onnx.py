@@ -410,3 +410,4 @@ class Annotator:
         Args:
             masks (tensor): predicted masks on cuda, shape: [n, h, w]
             colors (List[List[Int]]): colors for predicted masks, [[r, g, b] * n]
+            im_gpu (tensor): img is in cuda, shape: [3, h, w], range: [0, 1]
