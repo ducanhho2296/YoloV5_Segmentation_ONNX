@@ -404,3 +404,4 @@ class Annotator:
                             lineType=cv2.LINE_AA)
 
     
+    
