@@ -414,3 +414,4 @@ class Annotator:
             alpha (float): mask transparency: 0.0 fully transparent, 1.0 opaque
         """
         if self.pil:
+            # convert to numpy first
