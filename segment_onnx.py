@@ -424,3 +424,4 @@ class Annotator:
             #     masks = torch.as_tensor(masks, dtype=torch.uint8)
             #     masks = masks.permute(1, 2, 0).contiguous()
             #     masks = masks.cpu().numpy()
+            # masks = np.ascontiguousarray(masks.transpose(1, 2, 0))
