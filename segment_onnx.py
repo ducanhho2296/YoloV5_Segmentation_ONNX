@@ -420,3 +420,4 @@ class Annotator:
             # Add multiple masks of shape(h,w,n) with colors list([r,g,b], [r,g,b], ...)
             if len(masks) == 0:
                 return
+            # if isinstance(masks, torch.Tensor):
