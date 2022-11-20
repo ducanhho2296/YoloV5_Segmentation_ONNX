@@ -431,3 +431,4 @@ class Annotator:
             s = masks.sum(2, keepdims=True).clip(0, 1)  # add all masks together
             masks = (masks @ colors).clip(0, 255)  # (h,w,n) @ (n,3) = (h,w,3)
             self.im[:] = masks * alpha + self.im * (1 - s * alpha)
+        # else:
