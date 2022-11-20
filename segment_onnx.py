@@ -427,3 +427,4 @@ class Annotator:
             # masks = np.ascontiguousarray(masks.transpose(1, 2, 0))
             masks = scale_image(masks.shape[:2], masks, self.im.shape)
             masks = np.asarray(masks, dtype=np.float32)
+            colors = np.asarray(colors, dtype=np.float32)  # shape(n,3)
