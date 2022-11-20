@@ -422,3 +422,4 @@ class Annotator:
                 return
             # if isinstance(masks, torch.Tensor):
             #     masks = torch.as_tensor(masks, dtype=torch.uint8)
+            #     masks = masks.permute(1, 2, 0).contiguous()
