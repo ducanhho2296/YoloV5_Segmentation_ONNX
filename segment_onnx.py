@@ -421,3 +421,4 @@ class Annotator:
             if len(masks) == 0:
                 return
             # if isinstance(masks, torch.Tensor):
+            #     masks = torch.as_tensor(masks, dtype=torch.uint8)
