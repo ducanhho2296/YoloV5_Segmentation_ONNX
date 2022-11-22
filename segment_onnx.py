@@ -448,3 +448,4 @@ class Annotator:
         #     im_mask = (im_gpu * 255).byte().cpu().numpy()
         #     self.im[:] = scale_image(im_gpu.shape, im_mask, self.im.shape)
         if self.pil:
+            # convert im back to PIL and update draw
