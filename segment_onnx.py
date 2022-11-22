@@ -434,3 +434,4 @@ class Annotator:
         # else:
         #     if len(masks) == 0:
         #         self.im[:] = im_gpu.permute(1, 2, 0).contiguous().cpu().numpy() * 255
+        #     colors = torch.tensor(colors, device=im_gpu.device, dtype=torch.float32) / 255.0
