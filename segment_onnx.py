@@ -432,3 +432,4 @@ class Annotator:
             masks = (masks @ colors).clip(0, 255)  # (h,w,n) @ (n,3) = (h,w,3)
             self.im[:] = masks * alpha + self.im * (1 - s * alpha)
         # else:
+        #     if len(masks) == 0:
