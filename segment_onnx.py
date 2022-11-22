@@ -439,3 +439,4 @@ class Annotator:
         #     masks = masks.unsqueeze(3)  # shape(n,h,w,1)
         #     masks_color = masks * (colors * alpha)  # shape(n,h,w,3)
 
+        #     inv_alph_masks = (1 - masks * alpha).cumprod(0)  # shape(n,h,w,1)
