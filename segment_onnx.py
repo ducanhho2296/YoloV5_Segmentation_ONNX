@@ -433,3 +433,4 @@ class Annotator:
             self.im[:] = masks * alpha + self.im * (1 - s * alpha)
         # else:
         #     if len(masks) == 0:
+        #         self.im[:] = im_gpu.permute(1, 2, 0).contiguous().cpu().numpy() * 255
