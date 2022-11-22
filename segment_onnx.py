@@ -444,3 +444,4 @@ class Annotator:
 
         #     im_gpu = im_gpu.flip(dims=[0])  # flip channel
         #     im_gpu = im_gpu.permute(1, 2, 0).contiguous()  # shape(h,w,3)
+        #     im_gpu = im_gpu * inv_alph_masks[-1] + mcs
