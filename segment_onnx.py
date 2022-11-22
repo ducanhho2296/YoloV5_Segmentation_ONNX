@@ -443,3 +443,4 @@ class Annotator:
         #     mcs = (masks_color * inv_alph_masks).sum(0) * 2  # mask color summand shape(n,h,w,3)
 
         #     im_gpu = im_gpu.flip(dims=[0])  # flip channel
+        #     im_gpu = im_gpu.permute(1, 2, 0).contiguous()  # shape(h,w,3)
