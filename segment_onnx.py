@@ -487,3 +487,4 @@ path_save = "H:\GITHUB\yolov5"
 #                         order ='C')
 
 # data /= 255 
+# if len(data.shape) == 3:
