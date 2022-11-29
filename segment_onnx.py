@@ -495,3 +495,4 @@ for path, img, im0s in dataset:
     img = img.astype(np.float32) #convert img to float 32
     img /= 255
     if len(img.shape) == 3:
+        img = img[None]
