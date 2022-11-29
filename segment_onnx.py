@@ -486,3 +486,4 @@ path_save = "H:\GITHUB\yolov5"
 # data = np.asarray(img, dtype = np.float32, 
 #                         order ='C')
 
+# data /= 255 
