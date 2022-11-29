@@ -502,3 +502,4 @@ for path, img, im0s in dataset:
     input_name = session.get_inputs()[0].name
     output_name1 = session.get_outputs()[0].name
     output_name2 = session.get_outputs()[1].name
+
