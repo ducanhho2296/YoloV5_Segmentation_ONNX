@@ -491,3 +491,4 @@ path_save = "H:\GITHUB\yolov5"
 #     data = data[None]
 
 dataset = LoadImages(path, img_size=(640,640))
+for path, img, im0s in dataset:
