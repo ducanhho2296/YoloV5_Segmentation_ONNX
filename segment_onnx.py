@@ -451,3 +451,4 @@ class Annotator:
             # convert im back to PIL and update draw
             self.fromarray(self.im)
 
+    def rectangle(self, xy, fill=None, outline=None, width=1):
