@@ -474,3 +474,4 @@ class Annotator:
 
 #model directory
 model_dir = "./yolov5"
+model  = "H:\GITHUB\yolov5\yolov5s-seg.onnx"
