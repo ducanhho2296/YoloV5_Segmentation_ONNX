@@ -484,3 +484,4 @@ path_save = "H:\GITHUB\yolov5"
 # img = cv2.resize(img, dsize=(640,640), interpolation=cv2.INTER_AREA)
 # img.resize((3,640,640))
 # data = np.asarray(img, dtype = np.float32, 
+#                         order ='C')
