@@ -485,3 +485,4 @@ path_save = "H:\GITHUB\yolov5"
 # img.resize((3,640,640))
 # data = np.asarray(img, dtype = np.float32, 
 #                         order ='C')
+
