@@ -480,3 +480,4 @@ model  = "H:\GITHUB\yolov5\yolov5s-seg.onnx"
 path = "H:\GITHUB\yolov5\IMG_5191.JPG"
 path_save = "H:\GITHUB\yolov5"
 # img = cv2.imread(path)
+# img = img.astype(float)
