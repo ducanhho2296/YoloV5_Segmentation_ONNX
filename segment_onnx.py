@@ -467,3 +467,4 @@ class Annotator:
         self.im = im if isinstance(im, Image.Image) else Image.fromarray(im)
         self.draw = ImageDraw.Draw(self.im)
 
+    def result(self):
