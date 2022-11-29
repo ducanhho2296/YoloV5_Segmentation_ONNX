@@ -497,3 +497,4 @@ for path, img, im0s in dataset:
     if len(img.shape) == 3:
         img = img[None]
     #load onnx model
+    providers=['CUDAExecutionProvider', 'CPUExecutionProvider']
