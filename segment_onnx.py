@@ -492,3 +492,4 @@ path_save = "H:\GITHUB\yolov5"
 
 dataset = LoadImages(path, img_size=(640,640))
 for path, img, im0s in dataset:
+    img = img.astype(np.float32) #convert img to float 32
