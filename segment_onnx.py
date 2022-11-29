@@ -455,3 +455,4 @@ class Annotator:
         # Add rectangle to image (PIL-only)
         self.draw.rectangle(xy, fill, outline, width)
 
+    def text(self, xy, text, txt_color=(255, 255, 255), anchor='top'):
