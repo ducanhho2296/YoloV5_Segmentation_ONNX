@@ -460,3 +460,4 @@ class Annotator:
         if anchor == 'bottom':  # start y from font bottom
             w, h = self.font.getsize(text)  # text width, height
             xy[1] += 1 - h
+        self.draw.text(xy, text, fill=txt_color, font=self.font)
