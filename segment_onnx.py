@@ -457,3 +457,4 @@ class Annotator:
 
     def text(self, xy, text, txt_color=(255, 255, 255), anchor='top'):
         # Add text to image (PIL-only)
+        if anchor == 'bottom':  # start y from font bottom
