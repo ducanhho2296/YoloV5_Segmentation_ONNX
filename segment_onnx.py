@@ -490,3 +490,4 @@ path_save = "H:\GITHUB\yolov5"
 # if len(data.shape) == 3:
 #     data = data[None]
 
+dataset = LoadImages(path, img_size=(640,640))
