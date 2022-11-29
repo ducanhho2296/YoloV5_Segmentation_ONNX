@@ -473,3 +473,4 @@ class Annotator:
 
 
 #model directory
+model_dir = "./yolov5"
