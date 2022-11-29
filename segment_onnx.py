@@ -494,3 +494,4 @@ dataset = LoadImages(path, img_size=(640,640))
 for path, img, im0s in dataset:
     img = img.astype(np.float32) #convert img to float 32
     img /= 255
+    if len(img.shape) == 3:
