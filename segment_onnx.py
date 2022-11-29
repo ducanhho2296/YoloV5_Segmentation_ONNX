@@ -499,3 +499,4 @@ for path, img, im0s in dataset:
     #load onnx model
     providers=['CUDAExecutionProvider', 'CPUExecutionProvider']
     session = onnxruntime.InferenceSession(model, providers=providers)
+    input_name = session.get_inputs()[0].name
