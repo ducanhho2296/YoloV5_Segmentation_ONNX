@@ -459,3 +459,4 @@ class Annotator:
         # Add text to image (PIL-only)
         if anchor == 'bottom':  # start y from font bottom
             w, h = self.font.getsize(text)  # text width, height
+            xy[1] += 1 - h
