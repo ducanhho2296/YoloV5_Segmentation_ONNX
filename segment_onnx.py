@@ -488,3 +488,4 @@ path_save = "H:\GITHUB\yolov5"
 
 # data /= 255 
 # if len(data.shape) == 3:
+#     data = data[None]
