@@ -471,3 +471,4 @@ class Annotator:
         # Return annotated image as array
         return np.asarray(self.im)
 
+
