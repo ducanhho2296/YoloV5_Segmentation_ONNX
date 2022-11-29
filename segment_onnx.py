@@ -496,3 +496,4 @@ for path, img, im0s in dataset:
     img /= 255
     if len(img.shape) == 3:
         img = img[None]
+    #load onnx model
