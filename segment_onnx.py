@@ -498,3 +498,4 @@ for path, img, im0s in dataset:
         img = img[None]
     #load onnx model
     providers=['CUDAExecutionProvider', 'CPUExecutionProvider']
+    session = onnxruntime.InferenceSession(model, providers=providers)
