@@ -508,3 +508,4 @@ for path, img, im0s in dataset:
     proto_mask = session.run([output_name2], {input_name: img})
 
     print("prediction bbox: {}\n proto_mask: {}".format(pred, proto_mask))
+    print("shape of pred: {}\n shape of proto_mask: {}".format(pred[0].shape, proto_mask[0].shape))
