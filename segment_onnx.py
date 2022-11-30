@@ -510,3 +510,4 @@ for path, img, im0s in dataset:
     print("prediction bbox: {}\n proto_mask: {}".format(pred, proto_mask))
     print("shape of pred: {}\n shape of proto_mask: {}".format(pred[0].shape, proto_mask[0].shape))
 
+    #calculate non_max_suppression for bbox
