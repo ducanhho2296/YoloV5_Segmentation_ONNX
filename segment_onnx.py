@@ -504,3 +504,4 @@ for path, img, im0s in dataset:
     output_name2 = session.get_outputs()[1].name
 
 
+    pred = session.run([output_name1], {input_name: img})
