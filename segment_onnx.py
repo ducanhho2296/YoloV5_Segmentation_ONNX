@@ -525,3 +525,4 @@ for path, img, im0s in dataset:
 
 
         # Mask plotting
+            annotator.masks(masks,
