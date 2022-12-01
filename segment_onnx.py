@@ -514,3 +514,4 @@ for path, img, im0s in dataset:
     pred = non_max_suppression(pred[0])
 
     #prediction
+    for i, det in enumerate(pred):
