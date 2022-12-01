@@ -515,3 +515,4 @@ for path, img, im0s in dataset:
 
     #prediction
     for i, det in enumerate(pred):
+        im0 = im0s.copy()
