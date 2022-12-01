@@ -517,3 +517,4 @@ for path, img, im0s in dataset:
     for i, det in enumerate(pred):
         im0 = im0s.copy()
         imc = im0.copy()
+        annotator = Annotator(im0, line_width=3)
