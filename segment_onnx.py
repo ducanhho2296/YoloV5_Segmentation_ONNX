@@ -520,3 +520,4 @@ for path, img, im0s in dataset:
         annotator = Annotator(im0, line_width=3)
         
         if len(det):
+            masks = process_mask(proto_mask[i], det[:, 6:], det[:, :4], img.shape[2:], upsample=True)  # HWC
