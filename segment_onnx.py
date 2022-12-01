@@ -528,3 +528,4 @@ for path, img, im0s in dataset:
             annotator.masks(masks,
                             colors=[colors(x, True) for x in det[:, 5]],
                             im_gpu=None)
+
