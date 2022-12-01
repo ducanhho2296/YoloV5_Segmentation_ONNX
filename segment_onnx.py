@@ -513,3 +513,4 @@ for path, img, im0s in dataset:
     #calculate non_max_suppression for bbox
     pred = non_max_suppression(pred[0])
 
+    #prediction
