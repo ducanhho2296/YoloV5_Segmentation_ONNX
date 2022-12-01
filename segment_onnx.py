@@ -519,3 +519,4 @@ for path, img, im0s in dataset:
         imc = im0.copy()
         annotator = Annotator(im0, line_width=3)
         
+        if len(det):
