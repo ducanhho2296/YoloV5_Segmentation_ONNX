@@ -524,3 +524,4 @@ for path, img, im0s in dataset:
             det[:, :4] = scale_boxes(img.shape[2:], det[:, :4], img.shape).round()
 
 
+        # Mask plotting
