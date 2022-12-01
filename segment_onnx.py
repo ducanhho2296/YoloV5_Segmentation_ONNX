@@ -521,3 +521,4 @@ for path, img, im0s in dataset:
         
         if len(det):
             masks = process_mask(proto_mask[i], det[:, 6:], det[:, :4], img.shape[2:], upsample=True)  # HWC
+            det[:, :4] = scale_boxes(img.shape[2:], det[:, :4], img.shape).round()
