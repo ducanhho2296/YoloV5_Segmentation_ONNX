@@ -540,3 +540,4 @@ for path, img, im0s in dataset:
 
         img1 = annotator.result()
         img1.resize(640,640,3)
+
