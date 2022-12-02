@@ -535,3 +535,4 @@ for path, img, im0s in dataset:
                 c = int(cls)  # integer class
                 label = f'{[c]} {conf:.2f}'
                 annotator.box_label(xyxy, label, color=colors(c, True))
+
