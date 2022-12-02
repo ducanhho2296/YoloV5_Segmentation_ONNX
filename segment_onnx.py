@@ -530,3 +530,4 @@ for path, img, im0s in dataset:
                             im_gpu=None)
 
 
+        #write results
