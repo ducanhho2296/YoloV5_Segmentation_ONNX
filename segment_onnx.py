@@ -532,3 +532,4 @@ for path, img, im0s in dataset:
 
         #write results
             for j, (*xyxy, conf, cls) in enumerate(reversed(det[:, :6])):
+                c = int(cls)  # integer class
