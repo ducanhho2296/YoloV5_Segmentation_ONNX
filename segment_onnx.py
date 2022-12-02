@@ -546,3 +546,4 @@ for path, img, im0s in dataset:
         cv2.imshow("demo.jpg", img1)
         if cv2.waitKey(1000) == ord('q'):  # 1 millisecond
             exit()  
+        print(img1.shape)
