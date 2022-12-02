@@ -534,3 +534,4 @@ for path, img, im0s in dataset:
             for j, (*xyxy, conf, cls) in enumerate(reversed(det[:, :6])):
                 c = int(cls)  # integer class
                 label = f'{[c]} {conf:.2f}'
+                annotator.box_label(xyxy, label, color=colors(c, True))
