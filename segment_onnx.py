@@ -542,3 +542,4 @@ for path, img, im0s in dataset:
         img1.resize(640,640,3)
 
         cv2.namedWindow(str(i), cv2.WINDOW_NORMAL | cv2.WINDOW_KEEPRATIO)  # allow window resize (Linux)
+        cv2.resizeWindow(str(i), img1.shape[1], img1.shape[0])
