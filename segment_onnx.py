@@ -538,3 +538,4 @@ for path, img, im0s in dataset:
 
                 # save_one_box(xyxy, imc, file=path_save / 'crops' / f'{j.stem}.jpg', BGR=True)
 
+        img1 = annotator.result()
