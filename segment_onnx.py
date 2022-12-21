@@ -1,4 +1,3 @@
-import onnx
 import onnxruntime
 import cv2
 from onnx import numpy_helper
