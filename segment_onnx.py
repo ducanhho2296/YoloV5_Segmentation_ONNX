@@ -1,4 +1,3 @@
-import cv2
 from onnx import numpy_helper
 import sys
 from pathlib import Path
