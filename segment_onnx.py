@@ -1,4 +1,3 @@
-import numpy as np
 import onnx
 import onnxruntime
 import cv2
