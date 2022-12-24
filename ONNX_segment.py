@@ -54,3 +54,4 @@ class Segmentator:
             yy2 = np.minimum(y2[i], y2[other_box_ids])
 
             # print(list(zip(xx1, yy1, xx2, yy2)))
+
