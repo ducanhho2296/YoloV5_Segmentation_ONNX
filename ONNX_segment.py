@@ -82,3 +82,4 @@ class Segmentator:
         mi = 5 + nc
 
         for xi, x in enumerate(prediction):  # image index, image inference
+            # Apply constraints
