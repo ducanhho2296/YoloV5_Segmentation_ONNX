@@ -59,3 +59,4 @@ class Segmentator:
             h = np.maximum(0.0, yy2 - yy1 + 1e-9)  # maxiumum height
             inter = w * h
 
+            ovr = inter / (areas[i] + areas[other_box_ids] - inter)
