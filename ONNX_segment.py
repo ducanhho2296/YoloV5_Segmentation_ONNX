@@ -60,3 +60,4 @@ class Segmentator:
             inter = w * h
 
             ovr = inter / (areas[i] + areas[other_box_ids] - inter)
+
