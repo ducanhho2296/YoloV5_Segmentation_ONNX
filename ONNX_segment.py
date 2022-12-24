@@ -61,3 +61,4 @@ class Segmentator:
 
             ovr = inter / (areas[i] + areas[other_box_ids] - inter)
 
+            inds = np.where(ovr <= thresh)[0]
