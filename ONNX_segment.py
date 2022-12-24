@@ -81,3 +81,4 @@ class Segmentator:
         nc = 80
         mi = 5 + nc
 
+        for xi, x in enumerate(prediction):  # image index, image inference
