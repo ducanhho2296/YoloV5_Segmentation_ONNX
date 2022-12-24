@@ -33,3 +33,4 @@ class Segmentator:
         y[:, 3] = x[:, 3] - x[:, 1]  # height
         return y
 
+    def nms(self, dets, scores, thresh):
