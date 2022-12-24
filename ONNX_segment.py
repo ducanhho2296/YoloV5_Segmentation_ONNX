@@ -89,3 +89,4 @@ class Segmentator:
             # If none remain process next image
             if not x.shape[0]:
                 continue
+
