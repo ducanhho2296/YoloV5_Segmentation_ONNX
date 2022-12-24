@@ -73,3 +73,4 @@ class Segmentator:
         if prediction.size == 0:
             return output
 
+        xc = prediction[..., 4] > conf_thres  # candidate
