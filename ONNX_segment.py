@@ -79,3 +79,4 @@ class Segmentator:
         max_nms = 30000  # maximum number of boxes into torchvision.ops.nms()
 
         nc = 80
+        mi = 5 + nc
