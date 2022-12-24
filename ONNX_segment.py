@@ -74,3 +74,4 @@ class Segmentator:
             return output
 
         xc = prediction[..., 4] > conf_thres  # candidate
+        # Settings
