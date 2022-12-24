@@ -34,3 +34,23 @@ class Segmentator:
         return y
 
     def nms(self, dets, scores, thresh):
+        x1 = dets[:, 0]
+        y1 = dets[:, 1]
+        x2 = dets[:, 2]
+        y2 = dets[:, 3]
+
+        areas = (x2 - x1 + 1e-9) * (y2 - y1 + 1e-9)
+        order = scores.argsort()[::-1]  # get boxes with more ious first
+
+        keep = []
+        while order.size > 0:
+            i = order[0]  # pick maxmum iou box
+            other_box_ids = order[1:]
+            keep.append(i)
+
+            xx1 = np.maximum(x1[i], x1[other_box_ids])
+            yy1 = np.maximum(y1[i], y1[other_box_ids])
+            xx2 = np.minimum(x2[i], x2[other_box_ids])
+            yy2 = np.minimum(y2[i], y2[other_box_ids])
+
+            # print(list(zip(xx1, yy1, xx2, yy2)))
