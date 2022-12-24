@@ -72,3 +72,4 @@ class Segmentator:
         output = [np.zeros((0, 6))] * prediction.shape[0]
         if prediction.size == 0:
             return output
+
