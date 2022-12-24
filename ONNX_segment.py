@@ -80,3 +80,4 @@ class Segmentator:
 
         nc = 80
         mi = 5 + nc
+
