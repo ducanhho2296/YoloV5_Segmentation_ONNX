@@ -64,3 +64,4 @@ class Segmentator:
             inds = np.where(ovr <= thresh)[0]
             order = order[inds + 1]
 
+        return np.array(keep)
