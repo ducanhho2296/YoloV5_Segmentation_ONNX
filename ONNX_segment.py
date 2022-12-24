@@ -87,3 +87,4 @@ class Segmentator:
             x = x[xc[xi]]  # confidence
 
             # If none remain process next image
+            if not x.shape[0]:
