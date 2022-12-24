@@ -78,3 +78,4 @@ class Segmentator:
         min_wh, max_wh = 2, 7680  # (pixels) minimum and maximum box width and height
         max_nms = 30000  # maximum number of boxes into torchvision.ops.nms()
 
+        nc = 80
