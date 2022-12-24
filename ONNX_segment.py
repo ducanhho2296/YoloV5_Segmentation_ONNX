@@ -65,3 +65,4 @@ class Segmentator:
             order = order[inds + 1]
 
         return np.array(keep)
+
