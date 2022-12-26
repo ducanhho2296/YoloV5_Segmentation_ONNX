@@ -101,3 +101,4 @@ class Segmentator:
             x = np.concatenate((box, conf, j.astype(float), mask), axis=1)[conf.flatten() > conf_thres]
 
             # Check shape
+            n = x.shape[0]  # number of boxes
