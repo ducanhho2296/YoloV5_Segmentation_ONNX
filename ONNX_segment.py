@@ -111,3 +111,4 @@ class Segmentator:
             boxes, scores = x[:, :4] + c, x[:, 4]  # boxes (offset by class), scores
 
             i = self.nms(boxes, scores, iou_thres)  # NMS
+            # if i.shape[0] > max_det:  # limit detections
