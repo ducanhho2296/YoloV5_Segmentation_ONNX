@@ -100,3 +100,4 @@ class Segmentator:
             j = np.argmax(x[:, 5:mi], axis=1).reshape(conf.shape)
             x = np.concatenate((box, conf, j.astype(float), mask), axis=1)[conf.flatten() > conf_thres]
 
+            # Check shape
