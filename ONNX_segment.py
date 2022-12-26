@@ -113,3 +113,4 @@ class Segmentator:
             i = self.nms(boxes, scores, iou_thres)  # NMS
             # if i.shape[0] > max_det:  # limit detections
             #     i = i[:max_det]
+            output[xi] = x[i]
