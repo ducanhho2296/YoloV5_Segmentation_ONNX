@@ -114,3 +114,4 @@ class Segmentator:
             # if i.shape[0] > max_det:  # limit detections
             #     i = i[:max_det]
             output[xi] = x[i]
+
