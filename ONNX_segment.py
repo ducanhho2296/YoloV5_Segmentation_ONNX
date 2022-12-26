@@ -96,3 +96,4 @@ class Segmentator:
             box = self.xywh2xyxy(x[:, :4])  #Convert nx4 boxes from [x, y, w, h] to [x1, y1, x2, y2] (line 912/general.py)
             mask = x[:, mi:]
             # Detections matrix nx6 (xyxy, conf, cls)
+            conf = np.amax(x[:, 5:mi], axis=1, keepdims=True)
