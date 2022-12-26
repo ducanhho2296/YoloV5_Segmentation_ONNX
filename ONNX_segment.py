@@ -90,3 +90,4 @@ class Segmentator:
             if not x.shape[0]:
                 continue
 
+            # Compute conf
