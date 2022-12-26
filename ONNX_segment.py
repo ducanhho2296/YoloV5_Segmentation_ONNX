@@ -95,3 +95,4 @@ class Segmentator:
             # Box (center x, center y, width, height) to (x1, y1, x2, y2)
             box = self.xywh2xyxy(x[:, :4])  #Convert nx4 boxes from [x, y, w, h] to [x1, y1, x2, y2] (line 912/general.py)
             mask = x[:, mi:]
+            # Detections matrix nx6 (xyxy, conf, cls)
