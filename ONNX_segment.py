@@ -93,3 +93,4 @@ class Segmentator:
             # Compute conf
             x[:, 5:] *= x[:, 4:5]  # conf = obj_conf * cls_conf
             # Box (center x, center y, width, height) to (x1, y1, x2, y2)
+            box = self.xywh2xyxy(x[:, :4])  #Convert nx4 boxes from [x, y, w, h] to [x1, y1, x2, y2] (line 912/general.py)
