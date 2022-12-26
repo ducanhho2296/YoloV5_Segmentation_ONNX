@@ -103,3 +103,4 @@ class Segmentator:
             # Check shape
             n = x.shape[0]  # number of boxes
             if not n:  # no boxes
+                continue
