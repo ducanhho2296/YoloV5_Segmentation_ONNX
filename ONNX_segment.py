@@ -105,3 +105,4 @@ class Segmentator:
             if not n:  # no boxes
                 continue
             elif n > max_nms:  # excess boxes
+                x = x[x[:, 4].argsort(descending=True)[:max_nms]]
