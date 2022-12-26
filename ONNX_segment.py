@@ -107,3 +107,4 @@ class Segmentator:
             elif n > max_nms:  # excess boxes
                 x = x[x[:, 4].argsort(descending=True)[:max_nms]]
             # Batched NMS
+            c = x[:, 5:6] * max_wh  # classes
