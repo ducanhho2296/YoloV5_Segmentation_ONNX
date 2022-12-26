@@ -104,3 +104,4 @@ class Segmentator:
             n = x.shape[0]  # number of boxes
             if not n:  # no boxes
                 continue
+            elif n > max_nms:  # excess boxes
