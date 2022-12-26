@@ -91,3 +91,4 @@ class Segmentator:
                 continue
 
             # Compute conf
+            x[:, 5:] *= x[:, 4:5]  # conf = obj_conf * cls_conf
