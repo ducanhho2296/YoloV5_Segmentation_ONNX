@@ -110,3 +110,4 @@ class Segmentator:
             c = x[:, 5:6] * max_wh  # classes
             boxes, scores = x[:, :4] + c, x[:, 4]  # boxes (offset by class), scores
 
+            i = self.nms(boxes, scores, iou_thres)  # NMS
