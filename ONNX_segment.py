@@ -98,3 +98,4 @@ class Segmentator:
             # Detections matrix nx6 (xyxy, conf, cls)
             conf = np.amax(x[:, 5:mi], axis=1, keepdims=True)
             j = np.argmax(x[:, 5:mi], axis=1).reshape(conf.shape)
+            x = np.concatenate((box, conf, j.astype(float), mask), axis=1)[conf.flatten() > conf_thres]
