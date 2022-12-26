@@ -116,3 +116,4 @@ class Segmentator:
             output[xi] = x[i]
 
         return output
+
