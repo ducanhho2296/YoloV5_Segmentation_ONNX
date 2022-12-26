@@ -115,3 +115,4 @@ class Segmentator:
             #     i = i[:max_det]
             output[xi] = x[i]
 
+        return output
