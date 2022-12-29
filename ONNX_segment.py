@@ -120,3 +120,4 @@ class Segmentator:
     #Function to calculate masks
     def crop_mask(self, masks, boxes):
         """
+        "Crop" predicted masks by zeroing out everything not in the predicted bbox.
