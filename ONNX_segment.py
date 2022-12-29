@@ -124,3 +124,4 @@ class Segmentator:
         Vectorized by Chong (thanks Chong).
 
         Args:
+            - masks should be a size [h, w, n] tensor of masks
