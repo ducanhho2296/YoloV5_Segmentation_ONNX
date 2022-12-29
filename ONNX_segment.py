@@ -129,3 +129,4 @@ class Segmentator:
         """
 
         n, h, w = masks.shape #n = 6 (yolov5s-seg.onnx)
+        x1, y1, x2, y2 = np.split(boxes[:, :, None], 4, 1)  # x1 shape(1,1,n)
