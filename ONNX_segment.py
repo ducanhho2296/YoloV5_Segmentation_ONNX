@@ -132,3 +132,4 @@ class Segmentator:
         x1, y1, x2, y2 = np.split(boxes[:, :, None], 4, 1)  # x1 shape(1,1,n)
         r = np.arange(w, dtype=x1.dtype)[None, None, :]  # rows shape(1,w,1)
         c = np.arange(h, dtype=x1.dtype)[None, :, None]  # cols shape(h,1,1)
+
