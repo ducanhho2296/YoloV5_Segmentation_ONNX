@@ -117,3 +117,4 @@ class Segmentator:
 
         return output
 
+    #Function to calculate masks
