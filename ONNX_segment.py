@@ -118,3 +118,4 @@ class Segmentator:
         return output
 
     #Function to calculate masks
+    def crop_mask(self, masks, boxes):
