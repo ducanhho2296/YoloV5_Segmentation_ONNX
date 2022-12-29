@@ -122,3 +122,4 @@ class Segmentator:
         """
         "Crop" predicted masks by zeroing out everything not in the predicted bbox.
         Vectorized by Chong (thanks Chong).
+
