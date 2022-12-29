@@ -135,3 +135,4 @@ class Segmentator:
 
         return masks * ((r >= x1) * (r < x2) * (c >= y1) * (c < y2))
 
+
