@@ -136,3 +136,4 @@ class Segmentator:
         return masks * ((r >= x1) * (r < x2) * (c >= y1) * (c < y2))
 
 
+    def process_mask(self, protos, masks_in, bboxes, shape, upsample=False):
