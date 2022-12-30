@@ -147,3 +147,4 @@ class Segmentator:
         return: h, w, n
         """
 
+        c, mh, mw = protos.shape  # CHW
