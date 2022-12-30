@@ -151,3 +151,4 @@ class Segmentator:
         ih, iw = shape
         # masks = (masks_in @ protos.astype(float).view(c, -1)).sigmoid().view(-1, mh, mw)  # CHW
         mask_protos = np.reshape(protos, (c, -1))
+        matmulres = np.matmul(masks_in, mask_protos)
