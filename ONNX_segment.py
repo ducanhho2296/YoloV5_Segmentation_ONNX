@@ -162,3 +162,4 @@ class Segmentator:
 
         masks = self.crop_mask(masks, downsampled_bboxes)  # CHW
         # if upsample:
+        #     masks = F.interpolate(masks[None], shape, mode='bilinear', align_corners=False)[0]  # CHW
