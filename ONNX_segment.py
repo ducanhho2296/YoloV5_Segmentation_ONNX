@@ -139,3 +139,4 @@ class Segmentator:
     def process_mask(self, protos, masks_in, bboxes, shape, upsample=False):
         """
         Crop before upsample.
+        proto_out: [mask_dim, mask_h, mask_w]
