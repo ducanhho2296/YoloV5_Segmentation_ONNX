@@ -137,3 +137,4 @@ class Segmentator:
 
 
     def process_mask(self, protos, masks_in, bboxes, shape, upsample=False):
+        """
