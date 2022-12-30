@@ -158,3 +158,4 @@ class Segmentator:
         downsampled_bboxes[:, 0] *= mw / iw
         downsampled_bboxes[:, 2] *= mw / iw
         downsampled_bboxes[:, 3] *= mh / ih
+        downsampled_bboxes[:, 1] *= mh / ih
