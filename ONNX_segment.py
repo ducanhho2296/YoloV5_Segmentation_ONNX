@@ -142,3 +142,4 @@ class Segmentator:
         proto_out: [mask_dim, mask_h, mask_w]
         out_masks: [n, mask_dim], n is number of masks after nms
         bboxes: [n, 4], n is number of masks after nms
+        shape:input_image_size, (h, w)
