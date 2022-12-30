@@ -165,3 +165,4 @@ class Segmentator:
         #     masks = F.interpolate(masks[None], shape, mode='bilinear', align_corners=False)[0]  # CHW
         masks_gt = np.greater(masks, 0.5)
         masks_gt = masks_gt.astype(float)
+        # return masks.gt_(0.5)
