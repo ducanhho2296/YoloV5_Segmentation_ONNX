@@ -156,3 +156,4 @@ class Segmentator:
 
         downsampled_bboxes = bboxes.copy()
         downsampled_bboxes[:, 0] *= mw / iw
+        downsampled_bboxes[:, 2] *= mw / iw
