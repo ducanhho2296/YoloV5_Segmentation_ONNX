@@ -149,3 +149,4 @@ class Segmentator:
 
         c, mh, mw = protos.shape  # CHW
         ih, iw = shape
+        # masks = (masks_in @ protos.astype(float).view(c, -1)).sigmoid().view(-1, mh, mw)  # CHW
