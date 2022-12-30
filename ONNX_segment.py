@@ -161,3 +161,4 @@ class Segmentator:
         downsampled_bboxes[:, 1] *= mh / ih
 
         masks = self.crop_mask(masks, downsampled_bboxes)  # CHW
+        # if upsample:
