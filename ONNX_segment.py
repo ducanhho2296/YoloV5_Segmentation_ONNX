@@ -154,3 +154,4 @@ class Segmentator:
         matmulres = np.matmul(masks_in, mask_protos)
         masks = np.reshape(matmulres, (masks_in.shape[0], mh, mw))
 
+        downsampled_bboxes = bboxes.copy()
