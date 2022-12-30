@@ -153,3 +153,4 @@ class Segmentator:
         mask_protos = np.reshape(protos, (c, -1))
         matmulres = np.matmul(masks_in, mask_protos)
         masks = np.reshape(matmulres, (masks_in.shape[0], mh, mw))
+
