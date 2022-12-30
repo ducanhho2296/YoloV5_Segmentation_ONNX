@@ -145,3 +145,4 @@ class Segmentator:
         shape:input_image_size, (h, w)
 
         return: h, w, n
+        """
