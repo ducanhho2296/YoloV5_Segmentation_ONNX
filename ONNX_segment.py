@@ -171,3 +171,4 @@ class Segmentator:
     def scale_boxes(self, img1_shape, boxes, img0_shape, ratio_pad=None):
         # Rescale boxes (xyxy) from img1_shape to img0_shape
         if ratio_pad is None:  # calculate from img0_shape
+            gain = min(img1_shape[0] / img0_shape[0], img1_shape[1] / img0_shape[1])  # gain  = old / new
