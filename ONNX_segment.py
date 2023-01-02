@@ -183,3 +183,4 @@ class Segmentator:
         self.clip_boxes(boxes, img0_shape)
         return boxes
 
+    def clip_boxes(self, boxes, shape):
