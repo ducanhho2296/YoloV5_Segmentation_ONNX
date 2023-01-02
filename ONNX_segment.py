@@ -177,3 +177,4 @@ class Segmentator:
             gain = ratio_pad[0][0]
             pad = ratio_pad[1]
 
+        boxes[:, [0, 2]] -= pad[0]  # x padding
