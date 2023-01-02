@@ -190,3 +190,4 @@ class Segmentator:
         #     boxes[:, 1].clamp_(0, shape[0])  # y1
         #     boxes[:, 2].clamp_(0, shape[1])  # x2
         #     boxes[:, 3].clamp_(0, shape[0])  # y2
+        # else:  # np.array (faster grouped)
