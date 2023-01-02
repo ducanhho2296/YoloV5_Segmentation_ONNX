@@ -176,3 +176,4 @@ class Segmentator:
         else:
             gain = ratio_pad[0][0]
             pad = ratio_pad[1]
+
