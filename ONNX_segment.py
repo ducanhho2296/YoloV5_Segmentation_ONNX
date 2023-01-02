@@ -180,3 +180,4 @@ class Segmentator:
         boxes[:, [0, 2]] -= pad[0]  # x padding
         boxes[:, [1, 3]] -= pad[1]  # y padding
         boxes[:, :4] /= gain
+        self.clip_boxes(boxes, img0_shape)
