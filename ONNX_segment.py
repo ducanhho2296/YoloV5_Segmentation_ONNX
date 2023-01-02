@@ -168,3 +168,4 @@ class Segmentator:
         # return masks.gt_(0.5)
         return masks_gt
 
+    def scale_boxes(self, img1_shape, boxes, img0_shape, ratio_pad=None):
