@@ -186,3 +186,4 @@ class Segmentator:
     def clip_boxes(self, boxes, shape):
         # Clip boxes (xyxy) to image shape (height, width)
         # if isinstance(boxes, torch.Tensor):  # faster individually
+        #     boxes[:, 0].clamp_(0, shape[1])  # x1
