@@ -175,3 +175,4 @@ class Segmentator:
             pad = (img1_shape[1] - img0_shape[1] * gain) / 2, (img1_shape[0] - img0_shape[0] * gain) / 2  # wh padding
         else:
             gain = ratio_pad[0][0]
+            pad = ratio_pad[1]
