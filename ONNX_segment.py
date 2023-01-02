@@ -169,3 +169,4 @@ class Segmentator:
         return masks_gt
 
     def scale_boxes(self, img1_shape, boxes, img0_shape, ratio_pad=None):
+        # Rescale boxes (xyxy) from img1_shape to img0_shape
