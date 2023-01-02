@@ -182,3 +182,4 @@ class Segmentator:
         boxes[:, :4] /= gain
         self.clip_boxes(boxes, img0_shape)
         return boxes
+
