@@ -225,3 +225,4 @@ class Segmentator:
         if len(masks.shape) == 2:
             masks = masks[:, :, None]
         return masks
+
