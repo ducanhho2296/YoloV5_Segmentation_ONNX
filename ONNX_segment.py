@@ -205,3 +205,4 @@ class Segmentator:
         img0_shape: origin pic shape, [h, w, 3]
         masks: [h, w, num] -> in onnx numpy: [n, w, h] ##(6, 160, 160)
         """
+        # Rescale coordinates (xyxy) from im1_shape to im0_shape
