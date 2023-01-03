@@ -222,3 +222,4 @@ class Segmentator:
         # masks = masks.permute(1, 2, 0).contiguous()
         masks = cv2.resize(masks, (im0_shape[1], im0_shape[0]))
 
+        if len(masks.shape) == 2:
