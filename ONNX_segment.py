@@ -204,3 +204,4 @@ class Segmentator:
         img1_shape: model input shape, [h, w]
         img0_shape: origin pic shape, [h, w, 3]
         masks: [h, w, num] -> in onnx numpy: [n, w, h] ##(6, 160, 160)
+        """
