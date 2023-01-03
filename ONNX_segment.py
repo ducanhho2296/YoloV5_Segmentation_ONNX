@@ -196,3 +196,4 @@ class Segmentator:
 
     def is_ascii(self, s=''):
     # Is string composed of all ASCII (no UTF) characters? (note str().isascii() introduced in python 3.7)
+        s = str(s)  # convert list, tuple, None, etc. to str
