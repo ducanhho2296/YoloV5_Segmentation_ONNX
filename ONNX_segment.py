@@ -200,3 +200,4 @@ class Segmentator:
         return len(s.encode().decode('ascii', 'ignore')) == len(s)
 
     def scale_image(self, im1_shape, masks, im0_shape, ratio_pad=None):
+        """
