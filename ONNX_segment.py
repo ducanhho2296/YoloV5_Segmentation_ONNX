@@ -216,3 +216,4 @@ class Segmentator:
 
         if len(masks.shape) < 2:
             raise ValueError(f'"len of masks shape" should be 2 or 3, but got {len(masks.shape)}')
+        masks = masks[top:bottom, left:right]   
