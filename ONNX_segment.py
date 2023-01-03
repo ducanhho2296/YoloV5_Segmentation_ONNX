@@ -206,3 +206,4 @@ class Segmentator:
         masks: [h, w, num] -> in onnx numpy: [n, w, h] ##(6, 160, 160)
         """
         # Rescale coordinates (xyxy) from im1_shape to im0_shape
+        if ratio_pad is None:  # calculate from im0_shape
