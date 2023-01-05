@@ -232,3 +232,4 @@ class Segmentator:
         if isinstance(new_shape, int):
             new_shape = (new_shape, new_shape)
 
+        # Scale ratio (new / old)
