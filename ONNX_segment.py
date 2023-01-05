@@ -238,3 +238,4 @@ class Segmentator:
         if not scaleup:  # only scale down, do not scale up (for better val mAP)
             r = min(r, 1.0)
 
+        # Compute padding
