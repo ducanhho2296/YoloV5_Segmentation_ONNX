@@ -246,3 +246,4 @@ class Segmentator:
         #     dw, dh = np.mod(dw, stride), np.mod(dh, stride)  # wh padding
         if scaleFill:  # stretch
             dw, dh = 0.0, 0.0
+            new_unpad = (new_shape[1], new_shape[0])
