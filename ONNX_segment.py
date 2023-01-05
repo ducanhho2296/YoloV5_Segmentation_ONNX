@@ -231,3 +231,4 @@ class Segmentator:
         shape = im.shape[:2]  # current shape [height, width]
         if isinstance(new_shape, int):
             new_shape = (new_shape, new_shape)
+
