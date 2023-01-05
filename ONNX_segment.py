@@ -227,3 +227,4 @@ class Segmentator:
         return masks
 
     def letterbox(self, im, new_shape=(640, 640), color=(114, 114, 114), auto=False, scaleFill=False, scaleup=False, stride=32):
+        # Resize and pad image while meeting stride-multiple constraints
