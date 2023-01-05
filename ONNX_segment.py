@@ -239,3 +239,4 @@ class Segmentator:
             r = min(r, 1.0)
 
         # Compute padding
+        ratio = r, r  # width, height ratios
