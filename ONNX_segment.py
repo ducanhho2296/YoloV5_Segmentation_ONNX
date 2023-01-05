@@ -230,3 +230,4 @@ class Segmentator:
         # Resize and pad image while meeting stride-multiple constraints
         shape = im.shape[:2]  # current shape [height, width]
         if isinstance(new_shape, int):
+            new_shape = (new_shape, new_shape)
