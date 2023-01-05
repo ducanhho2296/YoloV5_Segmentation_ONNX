@@ -244,3 +244,4 @@ class Segmentator:
         dw, dh = new_shape[1] - new_unpad[0], new_shape[0] - new_unpad[1]  # wh padding
         # if auto:  # minimum rectangle
         #     dw, dh = np.mod(dw, stride), np.mod(dh, stride)  # wh padding
+        if scaleFill:  # stretch
