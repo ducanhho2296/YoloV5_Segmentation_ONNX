@@ -233,3 +233,4 @@ class Segmentator:
             new_shape = (new_shape, new_shape)
 
         # Scale ratio (new / old)
+        r = min(new_shape[0] / shape[0], new_shape[1] / shape[1])
