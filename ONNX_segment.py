@@ -240,3 +240,4 @@ class Segmentator:
 
         # Compute padding
         ratio = r, r  # width, height ratios
+        new_unpad = int(round(shape[1] * r)), int(round(shape[0] * r))
