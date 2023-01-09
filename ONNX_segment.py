@@ -274,3 +274,4 @@ class Segmentator:
     #         f = str(file.with_suffix('.jpg'))
     #         # cv2.imwrite(f, crop)  # save BGR, https://github.com/ultralytics/yolov5/issues/7007 chroma subsampling issue
     #         PIL.Image.fromarray(crop[..., ::-1]).save(f, quality=95, subsampling=0)  # save RGB
+    #     return crop
