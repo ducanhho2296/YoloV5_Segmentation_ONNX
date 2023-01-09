@@ -265,3 +265,4 @@ class Segmentator:
     #     b = self.xyxy2xywh(xyxy)  # boxes
     #     if square:
     #         b[:, 2:] = b[:, 2:].max(1)[0].unsqueeze(1)  # attempt rectangle to square
+    #     b[:, 2:] = b[:, 2:] * gain + pad  # box wh * gain + pad
