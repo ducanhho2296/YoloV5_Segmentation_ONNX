@@ -262,3 +262,4 @@ class Segmentator:
     # def save_one_box(self, xyxy, im, file=Path('im.jpg'), gain=1.02, pad=10, square=False, BGR=False, save=True):
     #     # Save image crop as {file} with crop size multiple {gain} and {pad} pixels. Save and/or return crop
     #     # xyxy = torch.tensor(xyxy).view(-1, 4)
+    #     b = self.xyxy2xywh(xyxy)  # boxes
