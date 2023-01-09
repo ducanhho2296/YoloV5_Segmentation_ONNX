@@ -259,3 +259,4 @@ class Segmentator:
         im = cv2.copyMakeBorder(im, top, bottom, left, right, cv2.BORDER_CONSTANT, value=color)  # add border
         return im, ratio, (dw, dh)
 
+    # def save_one_box(self, xyxy, im, file=Path('im.jpg'), gain=1.02, pad=10, square=False, BGR=False, save=True):
