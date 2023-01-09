@@ -268,3 +268,4 @@ class Segmentator:
     #     b[:, 2:] = b[:, 2:] * gain + pad  # box wh * gain + pad
     #     xyxy = self.xywh2xyxy(b).long()
     #     self.clip_boxes(xyxy, im.shape)
+    #     crop = im[int(xyxy[0, 1]):int(xyxy[0, 3]), int(xyxy[0, 0]):int(xyxy[0, 2]), ::(1 if BGR else -1)]
