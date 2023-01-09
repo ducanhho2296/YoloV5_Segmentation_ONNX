@@ -267,3 +267,4 @@ class Segmentator:
     #         b[:, 2:] = b[:, 2:].max(1)[0].unsqueeze(1)  # attempt rectangle to square
     #     b[:, 2:] = b[:, 2:] * gain + pad  # box wh * gain + pad
     #     xyxy = self.xywh2xyxy(b).long()
+    #     self.clip_boxes(xyxy, im.shape)
