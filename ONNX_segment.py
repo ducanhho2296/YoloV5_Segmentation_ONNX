@@ -282,3 +282,4 @@ class Segmentator:
 #         files = []
         
 
+#         self.img_size = img_size
