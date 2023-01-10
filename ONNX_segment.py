@@ -289,3 +289,4 @@ class Segmentator:
 #         self.transforms = transforms  # optional
 #         self.vid_stride = vid_stride  # video frame-rate stride
 #         self.cam = False
+#         self.path = path
