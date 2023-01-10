@@ -276,3 +276,4 @@ class Segmentator:
     #         PIL.Image.fromarray(crop[..., ::-1]).save(f, quality=95, subsampling=0)  # save RGB
     #     return crop
 
+# class LoadImages(Segmentator):
