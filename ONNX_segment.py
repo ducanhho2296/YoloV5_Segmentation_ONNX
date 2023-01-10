@@ -277,3 +277,4 @@ class Segmentator:
     #     return crop
 
 # class LoadImages(Segmentator):
+#     # YOLOv5 image/video dataloader, i.e. `python detect.py --source image.jpg/vid.mp4`
