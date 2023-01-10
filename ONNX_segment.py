@@ -281,3 +281,4 @@ class Segmentator:
 #     def __init__(self, path, img_size=640, stride=32, auto=True, transforms=None, vid_stride=1, cam=False):
 #         files = []
         
+
