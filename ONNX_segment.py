@@ -286,3 +286,4 @@ class Segmentator:
 #         self.stride = stride
 #         self.mode = 'image'
 #         self.auto = auto
+#         self.transforms = transforms  # optional
