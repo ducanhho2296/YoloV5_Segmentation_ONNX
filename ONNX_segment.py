@@ -284,3 +284,4 @@ class Segmentator:
 
 #         self.img_size = img_size
 #         self.stride = stride
+#         self.mode = 'image'
