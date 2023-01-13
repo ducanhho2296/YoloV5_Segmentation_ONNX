@@ -306,3 +306,4 @@ class Segmentator:
 #         # if self.transforms:
 #         #     im = self.transforms(im0)  # transforms
 #         # else:
+#         im = self.letterbox(im0, self.img_size, stride=self.stride, auto=self.auto)[0]  # padded resize
