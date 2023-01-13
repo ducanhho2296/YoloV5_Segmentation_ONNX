@@ -299,3 +299,4 @@ class Segmentator:
         
 
 #         self.count += 1
+#         im0 = self.path
