@@ -312,3 +312,4 @@ class Segmentator:
 #         im = np.ascontiguousarray(im)  # contiguous
             
 #         return im
+
