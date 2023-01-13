@@ -292,3 +292,4 @@ class Segmentator:
 #         self.path = path
 
 #     def __iter__(self):
+#         self.count = 0
