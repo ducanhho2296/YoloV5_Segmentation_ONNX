@@ -311,3 +311,4 @@ class Segmentator:
 #         im = im.transpose((2, 0, 1))[::-1]  # HWC to CHW, BGR to RGB
 #         im = np.ascontiguousarray(im)  # contiguous
             
+#         return im
