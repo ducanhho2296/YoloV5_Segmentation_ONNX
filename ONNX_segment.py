@@ -310,3 +310,4 @@ class Segmentator:
 #         im0_demo = im.copy()
 #         im = im.transpose((2, 0, 1))[::-1]  # HWC to CHW, BGR to RGB
 #         im = np.ascontiguousarray(im)  # contiguous
+            
