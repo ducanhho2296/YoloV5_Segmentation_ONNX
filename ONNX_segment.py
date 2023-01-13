@@ -296,3 +296,4 @@ class Segmentator:
 #         return self
 
 #     def __next__(self):
+        
