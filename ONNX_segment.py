@@ -302,3 +302,4 @@ class Segmentator:
 #         im0 = self.path
 
         
+#         # im0 = cv2.resize(im0, dsize=(640,480), interpolation=cv2.INTER_AREA)
