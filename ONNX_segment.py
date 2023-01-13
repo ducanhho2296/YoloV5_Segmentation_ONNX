@@ -308,3 +308,4 @@ class Segmentator:
 #         # else:
 #         im = self.letterbox(im0, self.img_size, stride=self.stride, auto=self.auto)[0]  # padded resize
 #         im0_demo = im.copy()
+#         im = im.transpose((2, 0, 1))[::-1]  # HWC to CHW, BGR to RGB
