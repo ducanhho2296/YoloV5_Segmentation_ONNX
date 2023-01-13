@@ -298,3 +298,4 @@ class Segmentator:
 #     def __next__(self):
         
 
+#         self.count += 1
