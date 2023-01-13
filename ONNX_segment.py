@@ -313,3 +313,4 @@ class Segmentator:
             
 #         return im
 
+    def _cv2_rotate(self, im):
