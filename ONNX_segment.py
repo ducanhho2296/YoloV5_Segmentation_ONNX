@@ -305,3 +305,4 @@ class Segmentator:
 #         # im0 = cv2.resize(im0, dsize=(640,480), interpolation=cv2.INTER_AREA)
 #         # if self.transforms:
 #         #     im = self.transforms(im0)  # transforms
+#         # else:
