@@ -291,3 +291,4 @@ class Segmentator:
 #         self.cam = False
 #         self.path = path
 
+#     def __iter__(self):
