@@ -327,3 +327,4 @@ class Segmentator:
         return self.nf  # number of files
 
 class Colors:
+    # Ultralytics color palette https://ultralytics.com/
