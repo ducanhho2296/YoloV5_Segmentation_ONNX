@@ -340,3 +340,4 @@ class Colors:
         return (c[2], c[1], c[0]) if bgr else c
 
     @staticmethod
+    def hex2rgb(h):  # rgb order (PIL)
