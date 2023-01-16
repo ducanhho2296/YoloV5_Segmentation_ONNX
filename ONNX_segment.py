@@ -326,3 +326,4 @@ class Segmentator:
     def __len__(self):
         return self.nf  # number of files
 
+class Colors:
