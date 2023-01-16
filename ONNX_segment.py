@@ -335,3 +335,4 @@ class Colors:
         self.palette = [self.hex2rgb(f'#{c}') for c in hexs]
         self.n = len(self.palette)
 
+    def __call__(self, i, bgr=False):
