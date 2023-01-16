@@ -329,3 +329,4 @@ class Segmentator:
 class Colors:
     # Ultralytics color palette https://ultralytics.com/
     def __init__(self):
+        # hex = matplotlib.colors.TABLEAU_COLORS.values()
