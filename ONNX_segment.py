@@ -336,3 +336,4 @@ class Colors:
         self.n = len(self.palette)
 
     def __call__(self, i, bgr=False):
+        c = self.palette[int(i) % self.n]
