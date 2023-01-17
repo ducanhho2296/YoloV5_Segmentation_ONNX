@@ -360,3 +360,4 @@ class Annotator(Segmentator):
         p1, p2 = (int(box[0]), int(box[1])), (int(box[2]), int(box[3]))
         cv2.rectangle(self.im, p1, p2, color, thickness=self.lw, lineType=cv2.LINE_AA)
         if label:
+            tf = max(self.lw - 1, 1)  # font thickness
