@@ -364,3 +364,4 @@ class Annotator(Segmentator):
             w, h = cv2.getTextSize(label, 0, fontScale=self.lw / 3, thickness=tf)[0]  # text width, height
             outside = p1[1] - h >= 3
             p2 = p1[0] + w, p1[1] - h - 3 if outside else p1[1] + h + 3
+            cv2.rectangle(self.im, p1, p2, color, -1, cv2.LINE_AA)  # filled
