@@ -347,3 +347,4 @@ class Colors:
 
 #Annotator
 class Annotator(Segmentator):
+    # YOLOv5 Annotator for train/val mosaics and jpgs and detect/hub inference annotations
