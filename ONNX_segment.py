@@ -370,3 +370,4 @@ class Annotator(Segmentator):
                         0,
                         self.lw / 3,
                         txt_color,
+                        thickness=tf,
