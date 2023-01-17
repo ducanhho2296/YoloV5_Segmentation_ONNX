@@ -346,3 +346,4 @@ class Colors:
 
 
 #Annotator
+class Annotator(Segmentator):
