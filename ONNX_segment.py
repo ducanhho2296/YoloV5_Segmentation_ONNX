@@ -357,3 +357,4 @@ class Annotator(Segmentator):
 
 
     def box_label(self, box, label='', color=(128, 128, 128), txt_color=(255, 255, 255)):
+        p1, p2 = (int(box[0]), int(box[1])), (int(box[2]), int(box[3]))
