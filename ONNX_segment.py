@@ -369,3 +369,4 @@ class Annotator(Segmentator):
                         label, (p1[0], p1[1] - 2 if outside else p1[1] + h + 2),
                         0,
                         self.lw / 3,
+                        txt_color,
