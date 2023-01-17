@@ -348,3 +348,4 @@ class Colors:
 #Annotator
 class Annotator(Segmentator):
     # YOLOv5 Annotator for train/val mosaics and jpgs and detect/hub inference annotations
+    def __init__(self, im, line_width=None, font_size=None, font='Arial.ttf', pil=False, example='abc'):
