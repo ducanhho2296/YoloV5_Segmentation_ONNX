@@ -355,3 +355,4 @@ class Annotator(Segmentator):
         self.im = im
         self.lw = line_width or max(round(sum(im.shape) / 2 * 0.003), 2)  # line width
 
+
