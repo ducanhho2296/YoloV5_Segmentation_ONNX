@@ -373,3 +373,4 @@ class Annotator(Segmentator):
                         thickness=tf,
                         lineType=cv2.LINE_AA)
 
+    
