@@ -387,3 +387,4 @@ class Annotator(Segmentator):
             # convert to numpy first
             self.im = np.asarray(self.im).copy()
         if im_gpu is None:
+            # Add multiple masks of shape(h,w,n) with colors list([r,g,b], [r,g,b], ...)
