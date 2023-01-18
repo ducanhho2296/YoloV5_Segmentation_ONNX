@@ -388,3 +388,7 @@ class Annotator(Segmentator):
             self.im = np.asarray(self.im).copy()
         if im_gpu is None:
             # Add multiple masks of shape(h,w,n) with colors list([r,g,b], [r,g,b], ...)
+            if len(masks) == 0:
+                return
+            # if isinstance(masks, torch.Tensor):
+            #     masks = torch.as_tensor(masks, dtype=torch.uint8)
