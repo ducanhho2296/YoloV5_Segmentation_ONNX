@@ -385,3 +385,4 @@ class Annotator(Segmentator):
         """
         if self.pil:
             # convert to numpy first
+            self.im = np.asarray(self.im).copy()
