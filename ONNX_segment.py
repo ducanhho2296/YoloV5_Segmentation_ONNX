@@ -374,3 +374,4 @@ class Annotator(Segmentator):
                         lineType=cv2.LINE_AA)
 
     
+    
