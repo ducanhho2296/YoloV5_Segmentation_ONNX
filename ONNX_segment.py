@@ -396,3 +396,9 @@ class Annotator(Segmentator):
             #     masks = masks.cpu().numpy()
             masks = np.ascontiguousarray(masks.transpose(1, 2, 0))
             masks = self.scale_image(masks.shape[:2], masks, self.im.shape)
+            masks = np.asarray(masks, dtype=np.float32)
+            colors = np.asarray(colors, dtype=np.float32)  # shape(n,3)
+            s = masks.sum(2, keepdims=True).clip(0, 1)  # add all masks together
+            masks = (masks @ colors).clip(0, 255)  # (h,w,n) @ (n,3) = (h,w,3)
+            self.im[:] = masks * alpha + self.im * (1 - s * alpha)
+ 
