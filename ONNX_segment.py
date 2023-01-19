@@ -403,3 +403,4 @@ class Annotator(Segmentator):
             self.im[:] = masks * alpha + self.im * (1 - s * alpha)
  
         if self.pil:
+            # convert im back to PIL and update draw
