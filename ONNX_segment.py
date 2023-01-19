@@ -405,3 +405,4 @@ class Annotator(Segmentator):
         if self.pil:
             # convert im back to PIL and update draw
             self.fromarray(self.im)
+
