@@ -402,3 +402,4 @@ class Annotator(Segmentator):
             masks = (masks @ colors).clip(0, 255)  # (h,w,n) @ (n,3) = (h,w,3)
             self.im[:] = masks * alpha + self.im * (1 - s * alpha)
  
+        if self.pil:
