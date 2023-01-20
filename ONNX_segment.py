@@ -423,3 +423,4 @@ class Annotator(Segmentator):
         self.draw = ImageDraw.Draw(self.im)
 
     def result(self):
+        # Return annotated image as array
