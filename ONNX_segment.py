@@ -418,3 +418,4 @@ class Annotator(Segmentator):
         self.draw.text(xy, text, fill=txt_color, font=self.font)
 
     def fromarray(self, im):
+        # Update self.im from a numpy array
