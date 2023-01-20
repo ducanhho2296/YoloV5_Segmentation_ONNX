@@ -426,3 +426,4 @@ class Annotator(Segmentator):
         # Return annotated image as array
         return np.asarray(self.im)
 
+
