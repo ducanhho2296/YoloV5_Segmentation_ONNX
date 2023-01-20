@@ -417,3 +417,4 @@ class Annotator(Segmentator):
             xy[1] += 1 - h
         self.draw.text(xy, text, fill=txt_color, font=self.font)
 
+    def fromarray(self, im):
