@@ -434,3 +434,4 @@ class VideoCameraAPI:
     def __init__(self):
         self.img = None
         self.grabbed = False
+        self.video_capture = None
