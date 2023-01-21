@@ -427,3 +427,5 @@ class Annotator(Segmentator):
         return np.asarray(self.im)
 
 
+import threading
+
