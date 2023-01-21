@@ -431,3 +431,4 @@ import threading
 
 class VideoCameraAPI:
 
+    def __init__(self):
