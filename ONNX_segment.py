@@ -437,3 +437,4 @@ class VideoCameraAPI:
         self.video_capture = None
         self.read_thread = None
         self.read_lock = threading.Lock()
+        self.running = False
