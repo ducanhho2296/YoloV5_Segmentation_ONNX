@@ -435,3 +435,4 @@ class VideoCameraAPI:
         self.img = None
         self.grabbed = False
         self.video_capture = None
+        self.read_thread = None
