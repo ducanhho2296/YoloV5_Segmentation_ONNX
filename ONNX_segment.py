@@ -443,3 +443,4 @@ class VideoCameraAPI:
         try:
             self.video_capture = cv2.VideoCapture(cameraID)
         except RuntimeError:
+            self.video_capture.release()
