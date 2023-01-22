@@ -445,3 +445,4 @@ class VideoCameraAPI:
         except RuntimeError:
             self.video_capture.release()
             print("Unable to open camera")
+            return
