@@ -440,3 +440,4 @@ class VideoCameraAPI:
         self.running = False
 
     def open(self, cameraID):
+        try:
