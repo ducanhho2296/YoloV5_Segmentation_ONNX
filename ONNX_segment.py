@@ -439,3 +439,4 @@ class VideoCameraAPI:
         self.read_lock = threading.Lock()
         self.running = False
 
+    def open(self, cameraID):
