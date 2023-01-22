@@ -448,3 +448,4 @@ class VideoCameraAPI:
             return
         # Grab the first frame to start the video capturing
         self.grabbed, self.img = self.video_capture.read()
+        return True
