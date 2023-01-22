@@ -444,3 +444,4 @@ class VideoCameraAPI:
             self.video_capture = cv2.VideoCapture(cameraID)
         except RuntimeError:
             self.video_capture.release()
+            print("Unable to open camera")
