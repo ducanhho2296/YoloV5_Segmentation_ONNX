@@ -442,3 +442,4 @@ class VideoCameraAPI:
     def open(self, cameraID):
         try:
             self.video_capture = cv2.VideoCapture(cameraID)
+        except RuntimeError:
