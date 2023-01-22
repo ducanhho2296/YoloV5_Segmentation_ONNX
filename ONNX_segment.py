@@ -446,3 +446,4 @@ class VideoCameraAPI:
             self.video_capture.release()
             print("Unable to open camera")
             return
+        # Grab the first frame to start the video capturing
