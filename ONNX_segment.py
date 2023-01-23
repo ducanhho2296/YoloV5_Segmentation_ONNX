@@ -456,3 +456,4 @@ class VideoCameraAPI:
                 print('Video capturing is already running')
                 return None
                 # create a thread to read the camera image
+            if self.video_capture is not None:
