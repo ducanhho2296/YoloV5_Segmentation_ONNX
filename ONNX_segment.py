@@ -452,3 +452,4 @@ class VideoCameraAPI:
 
     def start(self):
         try:
+            if self.running:
