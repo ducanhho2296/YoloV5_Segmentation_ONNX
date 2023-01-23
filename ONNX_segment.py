@@ -454,3 +454,4 @@ class VideoCameraAPI:
         try:
             if self.running:
                 print('Video capturing is already running')
+                return None
