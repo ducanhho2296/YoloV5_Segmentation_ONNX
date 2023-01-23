@@ -458,3 +458,4 @@ class VideoCameraAPI:
                 # create a thread to read the camera image
             if self.video_capture is not None:
                 self.running = True
+                self.read_thread = threading.Thread(target=self._updateCamera, daemon=True)
