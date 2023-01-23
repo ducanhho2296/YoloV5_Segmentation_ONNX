@@ -461,3 +461,4 @@ class VideoCameraAPI:
                 self.read_thread = threading.Thread(target=self._updateCamera, daemon=True)
                 self.read_thread.start()
             return self
+        except Exception as e:
