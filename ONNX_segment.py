@@ -451,3 +451,4 @@ class VideoCameraAPI:
         return True
 
     def start(self):
+        try:
