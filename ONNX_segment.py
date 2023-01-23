@@ -455,3 +455,4 @@ class VideoCameraAPI:
             if self.running:
                 print('Video capturing is already running')
                 return None
+                # create a thread to read the camera image
