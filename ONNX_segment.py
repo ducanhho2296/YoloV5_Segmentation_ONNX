@@ -450,3 +450,4 @@ class VideoCameraAPI:
         self.grabbed, self.img = self.video_capture.read()
         return True
 
+    def start(self):
