@@ -457,3 +457,4 @@ class VideoCameraAPI:
                 return None
                 # create a thread to read the camera image
             if self.video_capture is not None:
+                self.running = True
