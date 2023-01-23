@@ -462,3 +462,4 @@ class VideoCameraAPI:
                 self.read_thread.start()
             return self
         except Exception as e:
+            print(e)        
