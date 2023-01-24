@@ -465,3 +465,4 @@ class VideoCameraAPI:
             print(e)        
             return False
 
+    def read(self):
