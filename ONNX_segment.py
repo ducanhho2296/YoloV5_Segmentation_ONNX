@@ -467,3 +467,4 @@ class VideoCameraAPI:
 
     def read(self):
         with self.read_lock:
+            img = self.img
