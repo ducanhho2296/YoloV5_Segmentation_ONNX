@@ -466,3 +466,4 @@ class VideoCameraAPI:
             return False
 
     def read(self):
+        with self.read_lock:
