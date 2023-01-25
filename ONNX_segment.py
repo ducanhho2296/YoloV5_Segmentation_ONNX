@@ -475,3 +475,4 @@ class VideoCameraAPI:
         while self.running:
             try:
                 grabbed, img = self.video_capture.read()             
+                with self.read_lock:
