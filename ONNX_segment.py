@@ -478,3 +478,4 @@ class VideoCameraAPI:
                 with self.read_lock:
                     self.grabbed = grabbed
                     self.img = img
+            except RuntimeError:
