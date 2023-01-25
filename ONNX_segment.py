@@ -473,3 +473,4 @@ class VideoCameraAPI:
     def _updateCamera(self):
         # This is the thread to read images from the camera
         while self.running:
+            try:
