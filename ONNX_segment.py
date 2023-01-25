@@ -474,3 +474,4 @@ class VideoCameraAPI:
         # This is the thread to read images from the camera
         while self.running:
             try:
+                grabbed, img = self.video_capture.read()             
