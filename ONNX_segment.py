@@ -476,3 +476,4 @@ class VideoCameraAPI:
             try:
                 grabbed, img = self.video_capture.read()             
                 with self.read_lock:
+                    self.grabbed = grabbed
