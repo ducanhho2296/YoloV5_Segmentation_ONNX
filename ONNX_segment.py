@@ -470,3 +470,4 @@ class VideoCameraAPI:
             img = self.img
         return img
 
+    def _updateCamera(self):
