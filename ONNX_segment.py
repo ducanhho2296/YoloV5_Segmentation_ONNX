@@ -471,3 +471,4 @@ class VideoCameraAPI:
         return img
 
     def _updateCamera(self):
+        # This is the thread to read images from the camera
