@@ -482,3 +482,4 @@ class VideoCameraAPI:
                 print("Could not read image from camera")
 
     def stop(self):
+        try:
