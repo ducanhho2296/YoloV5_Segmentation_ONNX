@@ -481,3 +481,4 @@ class VideoCameraAPI:
             except RuntimeError:
                 print("Could not read image from camera")
 
+    def stop(self):
