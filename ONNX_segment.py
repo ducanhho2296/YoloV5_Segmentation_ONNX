@@ -480,3 +480,4 @@ class VideoCameraAPI:
                     self.img = img
             except RuntimeError:
                 print("Could not read image from camera")
+
