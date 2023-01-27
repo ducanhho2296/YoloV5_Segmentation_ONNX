@@ -490,3 +490,4 @@ class VideoCameraAPI:
     def release(self):
         if self.video_capture is not None:
             self.video_capture.release()
+
