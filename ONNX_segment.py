@@ -486,3 +486,4 @@ class VideoCameraAPI:
             self.running = False         
         except Exception as e:
             print(e)
+    
