@@ -484,3 +484,4 @@ class VideoCameraAPI:
     def stop(self):
         try:
             self.running = False         
+        except Exception as e:
