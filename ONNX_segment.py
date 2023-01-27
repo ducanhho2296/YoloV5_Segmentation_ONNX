@@ -485,3 +485,4 @@ class VideoCameraAPI:
         try:
             self.running = False         
         except Exception as e:
+            print(e)
