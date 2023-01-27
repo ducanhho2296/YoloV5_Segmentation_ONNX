@@ -487,3 +487,4 @@ class VideoCameraAPI:
         except Exception as e:
             print(e)
     
+    def release(self):
