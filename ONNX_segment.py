@@ -503,3 +503,4 @@ if __name__ == "__main__":
     labelMap = [
     "person",         "bicycle",    "car",           "motorbike",     "aeroplane",   "bus",           "train",
     "truck",          "boat",       "traffic light", "fire hydrant",  "stop sign",   "parking meter", "bench",
+    "bird",           "cat",        "dog",           "horse",         "sheep",       "cow",           "elephant",
