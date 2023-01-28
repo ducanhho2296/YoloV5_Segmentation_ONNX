@@ -511,5 +511,6 @@ if __name__ == "__main__":
     "orange",         "broccoli",   "carrot",        "hot dog",       "pizza",       "donut",         "cake",
     "chair",          "sofa",       "pottedplant",   "bed",           "diningtable", "toilet",        "tvmonitor",
     "laptop",         "mouse",      "remote",        "keyboard",      "cell phone",  "microwave",     "oven",
+    "toaster",        "sink",       "refrigerator",  "book",          "clock",       "vase",          "scissors",
     "teddy bear",     "hair drier", "toothbrush"
     ]
