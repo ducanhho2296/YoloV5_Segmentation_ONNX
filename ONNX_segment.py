@@ -501,3 +501,4 @@ if __name__ == "__main__":
     colors = Colors() #call colors for coloring masks
 
     labelMap = [
+    "person",         "bicycle",    "car",           "motorbike",     "aeroplane",   "bus",           "train",
