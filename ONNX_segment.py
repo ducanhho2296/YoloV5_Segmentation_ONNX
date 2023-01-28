@@ -510,3 +510,4 @@ if __name__ == "__main__":
     "fork",           "knife",      "spoon",         "bowl",          "banana",      "apple",         "sandwich",
     "orange",         "broccoli",   "carrot",        "hot dog",       "pizza",       "donut",         "cake",
     "chair",          "sofa",       "pottedplant",   "bed",           "diningtable", "toilet",        "tvmonitor",
+    ]
