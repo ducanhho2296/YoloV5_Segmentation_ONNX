@@ -498,3 +498,4 @@ if __name__ == "__main__":
      TODO: install dependencies
      pip install opencv-python numpy onnxruntime
     """
+    colors = Colors() #call colors for coloring masks
