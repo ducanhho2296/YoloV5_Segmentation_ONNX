@@ -496,3 +496,4 @@ class VideoCameraAPI:
 if __name__ == "__main__":
     """
      TODO: install dependencies
+     pip install opencv-python numpy onnxruntime
