@@ -514,3 +514,4 @@ if __name__ == "__main__":
     "toaster",        "sink",       "refrigerator",  "book",          "clock",       "vase",          "scissors",
     "teddy bear",     "hair drier", "toothbrush"
     ]
+
