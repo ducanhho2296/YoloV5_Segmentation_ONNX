@@ -518,3 +518,4 @@ if __name__ == "__main__":
 
 
     #model directory
+    model_dir = "./yolov5"
