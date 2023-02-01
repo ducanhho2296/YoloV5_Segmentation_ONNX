@@ -522,3 +522,4 @@ if __name__ == "__main__":
     model  = "H:\GITHUB\yolov5\yolov5s-seg.onnx"
 
     #load onnx model
+    cuda = True
