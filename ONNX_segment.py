@@ -523,3 +523,4 @@ if __name__ == "__main__":
 
     #load onnx model
     cuda = True
+    providers = ['CUDAExecutionProvider'] if cuda else ['CPUExecutionProvider']
