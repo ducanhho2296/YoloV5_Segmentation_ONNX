@@ -525,3 +525,4 @@ if __name__ == "__main__":
     cuda = True
     providers = ['CUDAExecutionProvider'] if cuda else ['CPUExecutionProvider']
     so = ort.SessionOptions()
+    so.log_severity_level = 3
