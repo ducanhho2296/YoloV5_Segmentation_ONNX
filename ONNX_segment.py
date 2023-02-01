@@ -528,3 +528,4 @@ if __name__ == "__main__":
     so.log_severity_level = 3
     print(ort.get_device())
     session = ort.InferenceSession(model, providers=providers, sess_options=so)
+    input_name = session.get_inputs()[0].name
