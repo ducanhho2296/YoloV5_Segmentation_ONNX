@@ -535,3 +535,4 @@ if __name__ == "__main__":
     #calculate FPS
     import time
 
+    #Using camera
