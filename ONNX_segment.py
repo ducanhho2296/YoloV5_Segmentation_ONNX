@@ -537,3 +537,4 @@ if __name__ == "__main__":
 
     #Using camera
     cam = VideoCameraAPI()
+    cam.open(cameraID=0)
