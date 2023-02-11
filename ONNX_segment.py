@@ -536,3 +536,4 @@ if __name__ == "__main__":
     import time
 
     #Using camera
+    cam = VideoCameraAPI()
