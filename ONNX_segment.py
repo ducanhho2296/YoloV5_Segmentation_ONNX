@@ -532,3 +532,4 @@ if __name__ == "__main__":
     output_name1 = session.get_outputs()[0].name
     output_name2 = session.get_outputs()[1].name
 
+    #calculate FPS
