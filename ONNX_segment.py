@@ -541,3 +541,4 @@ if __name__ == "__main__":
     cam.start()
 
     while True:
+        # Capture frame-by-frame
