@@ -548,3 +548,4 @@ if __name__ == "__main__":
         #call class
         segmentation = Segmentator()
         img = segmentation.letterbox(frame)[0]  # padded resize
+        img = img.transpose((2, 0, 1))[::-1]  # HWC to CHW, BGR to RGB
