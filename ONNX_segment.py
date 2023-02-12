@@ -545,3 +545,4 @@ if __name__ == "__main__":
         frame = cam.read()        
         time_start = time.time()
 
+        #call class
