@@ -546,3 +546,4 @@ if __name__ == "__main__":
         time_start = time.time()
 
         #call class
+        segmentation = Segmentator()
