@@ -542,3 +542,4 @@ if __name__ == "__main__":
 
     while True:
         # Capture frame-by-frame
+        frame = cam.read()        
