@@ -540,3 +540,4 @@ if __name__ == "__main__":
     cam.open(cameraID=0)
     cam.start()
 
+    while True:
