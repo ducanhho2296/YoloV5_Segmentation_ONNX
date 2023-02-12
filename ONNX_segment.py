@@ -549,3 +549,10 @@ if __name__ == "__main__":
         segmentation = Segmentator()
         img = segmentation.letterbox(frame)[0]  # padded resize
         img = img.transpose((2, 0, 1))[::-1]  # HWC to CHW, BGR to RGB
+        img= np.ascontiguousarray(img)
+        img = np.array(img)
+        img = img.astype(np.float32) #convert img to float 32
+
+        img /= 255
+        if len(img.shape) == 3:
+            img = img[None]
