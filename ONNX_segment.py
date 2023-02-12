@@ -547,3 +547,4 @@ if __name__ == "__main__":
 
         #call class
         segmentation = Segmentator()
+        img = segmentation.letterbox(frame)[0]  # padded resize
