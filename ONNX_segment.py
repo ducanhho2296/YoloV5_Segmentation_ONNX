@@ -566,3 +566,4 @@ if __name__ == "__main__":
         pred = segmentation.non_max_suppression(pred)
         # pred = non_max_suppression_fast(pred, overlapThresh=0.5)
         #prediction
+        im0 = frame
