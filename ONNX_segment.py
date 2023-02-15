@@ -562,3 +562,4 @@ if __name__ == "__main__":
         pred = pred_onnx[0]
         proto_mask = proto_onnx[0]
 
+        #calculate non_max_suppression for bbox
