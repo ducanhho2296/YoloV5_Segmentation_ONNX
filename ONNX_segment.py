@@ -559,3 +559,4 @@ if __name__ == "__main__":
 
         pred_onnx = session.run([output_name1], {input_name: img})
         proto_onnx = session.run([output_name2], {input_name: img})
+        pred = pred_onnx[0]
