@@ -557,3 +557,4 @@ if __name__ == "__main__":
         if len(img.shape) == 3:
             img = img[None]
 
+        pred_onnx = session.run([output_name1], {input_name: img})
