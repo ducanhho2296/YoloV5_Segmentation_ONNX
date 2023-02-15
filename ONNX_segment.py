@@ -556,3 +556,4 @@ if __name__ == "__main__":
         img /= 255
         if len(img.shape) == 3:
             img = img[None]
+
