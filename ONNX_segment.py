@@ -565,3 +565,4 @@ if __name__ == "__main__":
         #calculate non_max_suppression for bbox
         pred = segmentation.non_max_suppression(pred)
         # pred = non_max_suppression_fast(pred, overlapThresh=0.5)
+        #prediction
