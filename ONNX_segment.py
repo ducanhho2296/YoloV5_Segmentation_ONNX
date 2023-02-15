@@ -563,3 +563,4 @@ if __name__ == "__main__":
         proto_mask = proto_onnx[0]
 
         #calculate non_max_suppression for bbox
+        pred = segmentation.non_max_suppression(pred)
