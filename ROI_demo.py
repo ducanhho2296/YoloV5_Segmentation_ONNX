@@ -9,3 +9,4 @@ rect = cv2.selectROI('Select ROI', img, False)
 cv2.destroyWindow('Select ROI')
 
 # Extract the ROI from the image
+x, y, w, h = rect
