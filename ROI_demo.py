@@ -13,3 +13,4 @@ x, y, w, h = rect
 roi = img[y:y+h, x:x+w]
 
 # Calculate the average brightness of the ROI
+gray_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
