@@ -12,3 +12,4 @@ cv2.destroyWindow('Select ROI')
 x, y, w, h = rect
 roi = img[y:y+h, x:x+w]
 
+# Calculate the average brightness of the ROI
