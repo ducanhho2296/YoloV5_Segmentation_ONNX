@@ -573,3 +573,13 @@ if __name__ == "__main__":
             
             if len(det):
                 masks = segmentation.process_mask(proto_mask[i], det[:, 6:], det[:, :4], img.shape[2:], upsample=True)  # HWC
+                det[:, :4] = segmentation.scale_boxes(img.shape[2:], det[:, :4], im0.shape).round()
+
+
+            # Mask plotting
+                annotator.masks(masks,
+                                colors=[colors(x, True) for x in det[:, 5]],
+                                im_gpu=None)
+
+
+            #write results
