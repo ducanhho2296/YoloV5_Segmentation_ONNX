@@ -595,3 +595,10 @@ if __name__ == "__main__":
         time_stop = time.time()
         fps = 1 / (time_stop - time_start)
         print("fps: ", fps)
+        cv2.imshow('frame', im0)
+
+        if cv2.waitKey(1) == ord('q'):
+            break
+    cam.release()
+    cv2.destroyAllWindows()   
+
