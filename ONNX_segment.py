@@ -583,6 +583,11 @@ if __name__ == "__main__":
 
 
             #write results
+                for j, (*xyxy, conf, cls) in enumerate(reversed(det[:, :6])):
+                    c = int(cls)  # integer class
+                    # label = f'{[c]} {conf:.2f}'
+                    cls_name = labelMap[c]
+                    label = f'{cls_name} {conf:.2f}'
                     annotator.box_label(xyxy, label, color=colors(c, True))
 
 
