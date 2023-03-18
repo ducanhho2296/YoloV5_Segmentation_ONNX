@@ -568,3 +568,4 @@ if __name__ == "__main__":
         #prediction
         im0 = frame
 
+        for i, det in enumerate(pred):
