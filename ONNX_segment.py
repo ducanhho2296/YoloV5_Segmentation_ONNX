@@ -583,3 +583,10 @@ if __name__ == "__main__":
 
 
             #write results
+                    annotator.box_label(xyxy, label, color=colors(c, True))
+
+
+            im0 = annotator.result()
+        time_stop = time.time()
+        fps = 1 / (time_stop - time_start)
+        print("fps: ", fps)
