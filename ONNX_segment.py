@@ -569,3 +569,4 @@ if __name__ == "__main__":
         im0 = frame
 
         for i, det in enumerate(pred):
+            annotator = Annotator(im0, line_width=3)
