@@ -572,3 +572,4 @@ if __name__ == "__main__":
             annotator = Annotator(im0, line_width=3)
             
             if len(det):
+                masks = segmentation.process_mask(proto_mask[i], det[:, 6:], det[:, :4], img.shape[2:], upsample=True)  # HWC
