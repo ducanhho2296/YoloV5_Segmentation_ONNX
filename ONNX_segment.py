@@ -570,3 +570,4 @@ if __name__ == "__main__":
 
         for i, det in enumerate(pred):
             annotator = Annotator(im0, line_width=3)
+            
