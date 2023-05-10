@@ -39,8 +39,6 @@ python realtime_segmentation.py
 
 5. The program will open the default camera on your computer and start detecting and segmenting objects in real-time. You can press the 'q' key to quit the program.
 
-You can update the `README.md` file to include a section on using FastAPI for streaming segmented frames to a web browser using both HTTP and WebSockets. Add the following section to the `README.md` file:
-
 ## Streaming segmented objects with FastAPI
 
 This project also includes an implementation using FastAPI to stream the segmented frames to a web browser using both HTTP and WebSockets.
