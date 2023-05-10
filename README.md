@@ -39,6 +39,46 @@ python realtime_segmentation.py
 
 5. The program will open the default camera on your computer and start detecting and segmenting objects in real-time. You can press the 'q' key to quit the program.
 
+You can update the `README.md` file to include a section on using FastAPI for streaming segmented frames to a web browser using both HTTP and WebSockets. Add the following section to the `README.md` file:
+
+## Streaming segmented objects with FastAPI
+
+This project also includes an implementation using FastAPI to stream the segmented frames to a web browser using both HTTP and WebSockets.
+
+### Requirements
+
+In addition to the libraries mentioned above, you need the following libraries installed:
+
+- FastAPI
+- Uvicorn
+- WebSockets (only needed for WebSocket streaming)
+
+Install the additional libraries using the following command:
+
+```bash
+pip install fastapi uvicorn websockets
+```
+
+### Usage
+
+1. Run the FastAPI app for HTTP streaming using the following command:
+
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+2. Open your web browser and visit http://0.0.0.0:8000/ to view the processed video stream using HTTP.
+
+3. To use WebSockets for streaming, update the FastAPI app (`app.py`) to include a WebSocket endpoint, as shown in a previous response in this thread.
+
+4. Run the FastAPI app for WebSocket streaming using the same command as in step 1:
+
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
+
+5. Open your web browser and visit http://0.0.0.0:8000/ to view the processed video stream using WebSockets.
+
 ## Result:
 
 ![download](https://user-images.githubusercontent.com/92146886/219335892-86fc877f-8526-4ce0-beab-c36e391a2dc6.jpeg)
