@@ -6,7 +6,18 @@ from functions import *
 
 class YOLOv5Segmentation:
     def __init__(self, model_path):
-        self.labelMap = [...]
+        self.labelMap = ["person",         "bicycle",    "car",           "motorbike",     "aeroplane",   "bus", "train",
+        "truck",          "boat",       "traffic light", "fire hydrant",  "stop sign",   "parking meter", "bench",
+        "bird",           "cat",        "dog",           "horse",         "sheep",       "cow",           "elephant",
+        "bear",           "zebra",      "giraffe",       "backpack",      "umbrella",    "handbag",       "tie",
+        "suitcase",       "frisbee",    "skis",          "snowboard",     "sports ball", "kite",          "baseball bat",
+        "baseball glove", "skateboard", "surfboard",     "tennis racket", "bottle",      "wine glass",    "cup",
+        "fork",           "knife",      "spoon",         "bowl",          "banana",      "apple",         "sandwich",
+        "orange",         "broccoli",   "carrot",        "hot dog",       "pizza",       "donut",         "cake",
+        "chair",          "sofa",       "pottedplant",   "bed",           "diningtable", "toilet",        "tvmonitor",
+        "laptop",         "mouse",      "remote",        "keyboard",      "cell phone",  "microwave",     "oven",
+        "toaster",        "sink",       "refrigerator",  "book",          "clock",       "vase",          "scissors",
+        "teddy bear",     "hair drier", "toothbrush"]
         self.model = model_path
         if self.model is not None:
             self.load_model()
