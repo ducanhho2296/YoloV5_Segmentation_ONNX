@@ -45,5 +45,5 @@ python realtime_segmentation.py
 
 ## Credits
 
-This project is inspired by the [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5) repository. The project uses their implementation of YOLOv5 for object detection and their color mapping function for coloring the object masks. The project also uses the [ONNX Runtime](https://github.com/microsoft/onnxruntime) library for inference.
+This project is inspired by the [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5) repository. The project uses their implementation of YOLOv5 for object detection, instance segmentation and their color mapping function for coloring the object masks. The project also uses the [ONNX Runtime](https://github.com/microsoft/onnxruntime) library for inference.
 
