@@ -43,20 +43,6 @@ python realtime_segmentation.py
 
 This project also includes an implementation using FastAPI to stream the segmented frames to a web browser using both HTTP and WebSockets.
 
-### Requirements
-
-In addition to the libraries mentioned above, you need the following libraries installed:
-
-- FastAPI
-- Uvicorn
-- WebSockets (only needed for WebSocket streaming)
-
-Install the additional libraries using the following command:
-
-```bash
-pip install fastapi uvicorn websockets
-```
-
 ### Usage
 
 1. Run the FastAPI app for HTTP streaming using the following command:
