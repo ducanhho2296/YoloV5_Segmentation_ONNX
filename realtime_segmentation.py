@@ -8,7 +8,8 @@ class YOLOv5Segmentation:
     def __init__(self, model_path):
         self.labelMap = [...]
         self.model = model_path
-        self.load_model()
+        if self.model is not None:
+            self.load_model()
         self.colors = Colors()
 
     def load_model(self):
