@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YOLOv5 Segmentation</title>
+    </head>
+    <body>
+        <h1>YOLOv5 Segmentation</h1>
+        <img src="/static/loading.gif" id="image" width="640" height="480"/>
+        <script>
+            let image = document.getElementById('image');
+            let socket = new WebSocket("ws://" + location.host + "/ws");
+            socket.binaryType = "blob";
+
+            socket.onmessage = function(event) {
+                image.src = URL.createObjectURL(event.data);
+            };
+
+            socket.onclose = function(event) {
+                if (event.wasClean) {
+                    console.log(`[close] Connection closed cleanly, code=${event.code} reason=${event.reason}`);
+                } else {
+                    console.log('[close] Connection died');
+                }
+            };
+
+            socket.onerror = function(error) {
+                console.log(`[error] ${error.message}`);
+            };
+        </script>
+    </body>
+</html>
