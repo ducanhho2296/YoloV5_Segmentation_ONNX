@@ -1,6 +1,6 @@
 # Real-time Instance Segmentation using YOLOv5 and ONNX Runtime
 
-This is a Python project for real-time instance segmentation using YOLOv5 and ONNX Runtime. The project uses YOLOv5 to detect objects in the input video stream and then performs instance segmentation to create a binary mask for each detected object. The resulting masks are then overlaid on the original video frames to highlight the detected objects.
+This is a approach for real-time instance segmentation using YOLOv5 and ONNX Runtime. The project uses YOLOv5 to detect objects in the input video stream and then performs instance segmentation to create a binary mask for each detected object. The resulting masks are then overlaid on the original video frames to highlight the detected objects.
 
 ## Requirements
 
