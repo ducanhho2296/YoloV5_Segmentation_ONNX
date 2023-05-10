@@ -14,7 +14,7 @@ To run this project, you need the following libraries installed:
 The following command:
 
 ```bash
-pip install torch opencv-python numpy onnxruntime
+pip install -r requirements.txt
 ```
 
 ## Usage
