@@ -1,8 +1,6 @@
-Sure, here's an updated version of the `README.md` file:
-
 # Real-time Instance Segmentation using YOLOv5 and ONNX Runtime
 
-This is a Python project for real-time instance segmentation using YOLOv5 and ONNX Runtime. The project uses YOLOv5 to detect objects in the input video stream and then performs instance segmentation to create a binary mask for each detected object. The resulting masks are then overlaid on the original video frames to highlight the detected objects.
+This is a approach for real-time instance segmentation using YOLOv5 and ONNX Runtime. The project uses YOLOv5 to detect objects in the input video stream and then performs instance segmentation to create a binary mask for each detected object. The resulting masks are then overlaid on the original video frames to highlight the detected objects.
 
 ## Requirements
 
@@ -47,5 +45,5 @@ python realtime_segmentation.py
 
 ## Credits
 
-This project is inspired by the [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5) repository. The project uses their implementation of YOLOv5 for object detection and their color mapping function for coloring the object masks. The project also uses the [ONNX Runtime](https://github.com/microsoft/onnxruntime) library for inference.
+This project is inspired by the [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5) repository. The project uses their implementation of YOLOv5 for object detection, instance segmentation and their color mapping function for coloring the object masks. The project also uses the [ONNX Runtime](https://github.com/microsoft/onnxruntime) library for inference.
 
