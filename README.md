@@ -53,7 +53,7 @@ uvicorn app:app --host 0.0.0.0 --port 8000
 
 2. Open your web browser and visit http://0.0.0.0:8000/ to view the processed video stream using HTTP.
 
-3. To use WebSockets for streaming, update the FastAPI app (`app.py`) to include a WebSocket endpoint, as shown in a previous response in this thread.
+3. To use WebSockets for streaming, run the script `websockets_streaming.py` .
 
 4. Run the FastAPI app for WebSocket streaming using the same command as in step 1:
 
